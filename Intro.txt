@@ -1,0 +1,16 @@
+本版本为Demo，不代表最终品质（比如现在的中文也是测试内容）
+========Hacknet Starting...========
+.   .   .
+.   .   .
+.   .   .
+Warning:Unable To Load Exe...
+.   .   .
+.   .   .
+.   .   .
+Warning:Unable To Load Nodes...
+.   .   . 
+.   .   . 
+.   .   .
+===========================
+  
+   

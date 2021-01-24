@@ -1,0 +1,11 @@
+<ConditionalActions>
+  <OnConnect target="STARNC">
+<LaunchHackScript Filepath="HackerScripts/211OP.txt" DelayHost="EDI" Delay="2" SourceComp="EDI" TargetComp="STARNC" RequireLogsOnSource="false"/>
+  </OnConnect>
+ 
+ 
+ 
+ 
+ 
+
+</ConditionalActions>

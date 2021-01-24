@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="STARTerrorists" name="Star Terrorists中心" security="5" type="4" icon="DLCServer">
+  <firewall level="6" solution="G67S8U" additionalTime="0.3"/>
+  <proxy time="2" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 21, 25, 443, 554, 211</ports>
+  <portRemap>25=8471,554=657</portRemap>
+  <dlink target="STARB" />
+  <dlink target="STARBD" />
+  <dlink target="STARL" />
+  <dlink target="STARWT" />
+</Computer>

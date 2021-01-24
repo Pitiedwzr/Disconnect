@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="oral" handle="oral" firstName="Oral" lastName="Jobeth" isMale="true" forceHasNeopals="false">
+  <!-- ID is not used yet, but may be used in the future for reference stuff. Handle is this person's account name for things like PointClicker and neopals.
+  forceHasNeopals set to try guarantees they will have a neopals account generated. Otherwise it's random.-->
+  
+  <!-- Any string works here, but it's designed to accept a city name -->
+  <Birthplace name="Unknown" />
+  
+    <!-- You can add as many degrees as you like here - these show up on the academic database-->
+  <Degrees>
+    <Degree uni="Unknown" gpa="0.0">Unknown</Degree>
+  </Degrees>
+
+  <!-- This info shows up in the medical database-->
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>183</Height> <!-- Height in cm -->
+    <Allergies>青霉素</Allergies>
+    <Perscription>肝素X50 :: 预防血栓形成</Perscription>
+
+    
+<Notes>该患者因心绞痛而接受检查，在X光片中，我们发现其患有一种先天性结构缺陷——脏器逆位，即心脏位在右手边，肝脏位在左手边。
+这种先天缺陷现象较罕见，发生率约为1/1000000。而患者的心绞痛问题则是先天性心脏病引起的，因此正在等待与其相匹配的心脏供体。
+由于患者的特殊情况，本场手术将由人工智能手术台操作并且录像以制作教学案例，在条件允许的情况下，手术台允许远程进行微调（例如固件的更换）
+
+参考：
+手术台连接IP：795.56.94.19
+手术台资料及说明：
+</Notes>
+  </Medical>
+  
+  <!-- date and time of birth - used in medical records
+  Format is: DD/MM/YYYY HH:MM:SS-->
+  <DOB>26/10/1973 14:00:00</DOB>
+  
+  <Notes>某个镜面人</Notes>
+</Person>

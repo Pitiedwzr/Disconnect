@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+ <Computer id="TPHN" name="TPH内部服务器" security="5" allowsDefaultBootModule="true" icon="dlcServer" type="1" >
+  
+  <ports>22, 21, 6881, 443, 192, 554</ports>
+  <portRemap>22=1024,6881=7992</portRemap>
+  <portsForCrack val="6" />
+  <trace time="85" />
+
+  <Memory>
+    <Commands>
+      <Command>cd home</Command>
+      <Command>rm *</Command>
+    </Commands>
+    <Data>
+      <Block>
+	  IP：506.254.719.67
+	  </Block>
+    </Data>
+  </Memory>
+
+  <file path="home" name="!!IMPORTANT!!.txt">
+  即使服务器设置在了内网，也不应该储存关于Star的任何IP或文件！
+  交互中心的IP我已经删掉了，别让我再提醒你们！
+  </file>
+  
+
+ </Computer>

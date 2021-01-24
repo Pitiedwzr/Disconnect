@@ -1,0 +1,5 @@
+<ConditionalActions>
+<Instantly>
+  <LaunchHackScript Filepath="HackerScripts/playerMemories.txt" DelayHost="EDI" Delay="1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false"/>
+</Instantly>
+</ConditionalActions>

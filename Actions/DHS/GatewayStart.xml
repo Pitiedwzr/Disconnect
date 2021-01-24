@@ -1,0 +1,5 @@
+<ConditionalActions>
+ <OnConnect target="DCGate" needsMissionComplete="false">
+       <SwitchToTheme ThemePathOrName="Themes/CautionTheme-Green.xml" FlickerInDuration="2.0" DelayHost="Cheat" Delay="1" />
+  </OnConnect>
+</ConditionalActions>

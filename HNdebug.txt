@@ -1,0 +1,20 @@
+
+开发调试命令要在开发过程中自动启动mod，请使用参数-extstart [YOUR_MOD_FOLDERNAME]启动Hacknet
+要在第二台显示器上启动Hacknet，如果有的话，请使用参数-altmonitor
+您可能还希望使用强制完成开发： -enablefc
+调试命令：-enabledebug
+一旦启用调试命令：
+fh立即闯入任何计算机
+dscan [ID]通过ID名称显示计算机
+ra立即显示netmap上的所有内容
+reloadext从源重新加载当前扩展中的所有节点文件，并在当前保存中更新它们。 
+printflags输出播放器对终端的所有标志
+runhackscript Script / Path / Name.txt用你自己的黑客脚本的文件路径替换路径来测试它 - 这也会向终端输出错误。
+
+发布到Steam Workshop和Nexus要在Hacknet中显示研讨会发布工具，请添加启动参数：-allowextpublish
+在扩展页面中，您现在可以创建研讨会项目并将内容上传到该项目。
+请务必阅读示例扩展中ExtensionInfo.xml底部的Workshop信息，以了解要包含的内容！
+我建议您首先将其创建为私有，然后转到您自己的工作室页面上查看它并在公开之前对其进行润色。
+上传后，您需要检查一些内容。
+runhackscript HackerScripts\playerMemories.txt
+首先，检查您的分机是否需要Labyrinths DLC。你可以在开发过程中自己跟踪这个问题，但最好的方法就是禁用你的Labyrinths副本（在Hacknet库页面的DLC部分取消选中它），然后运行你的测试。扩展并通过它玩。如果它确实需要Labyrinths，请确保在工作室页面上添加它作为要求！

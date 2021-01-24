@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM5" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+	
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/5END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="来自远方的杂音-Coel" reqs="DHSM5" >
+    安插监视器，为今后的任务做准备。
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>来自远方的杂音</subject>
+    <body>
+    
+</body>
+    <attachments>
+      <note title="笔记">
+
+	  </note>
+	  <link comp="" />
+    </attachments>
+  </email>
+</mission>

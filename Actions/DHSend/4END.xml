@@ -1,0 +1,35 @@
+<ConditionalActions>
+  <Instantly>
+   <CopyAsset DestFilePath="home" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Star.png" SourceFilePath="home" />
+   <RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-200 Meters.ogg" FunctionValue="1" />
+   <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="8">...看起来是个加密文件...还是有密码的</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="11">@D3F4ult 能不能解密？</AddIRCMessage>
+   <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="14">应该可以...给我一点时间...</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="17">嗯</AddIRCMessage>
+   <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="24">好了，密码是2514RD5325，解密后的文件已经上传到共享服务器</AddIRCMessage>
+   <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="25">*** 用户 D3F4ult 上传了文件 ***</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="27">是个png文件？</AddIRCMessage>
+   <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="30">我这查看不了...</AddIRCMessage>
+   <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="32">@#PLAYERNAME# 用MemForensics查看</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="35">看起来是个关于Star的关系图</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="37">想不到TPH和ED居然与Star合作...</AddIRCMessage>
+   <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="39">PacificAir和Psylance是最清白的了...</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="41">@channel 各位，我这里有一个坏消息......Psylance的事故调查报告已经完成了</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="43">报告显示，实际找到的遗体数量比机上人数少一人</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="45">同时缺失的还有一件行李，而行李的内容物是一台电脑以及私人物品...</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="47">上面或许可以用巧合解释，但....我的一位朋友发现了Pot的身影</AddIRCMessage>
+   <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="50">？！</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="52">@Tom 先别激动...当时，跟她在一起被发现的人...还有HY........</AddIRCMessage>
+   <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="54">....我要去见Pot.....在没见到她之前，我绝不会相信她会欺骗我们！</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="56">...你真的是认真思考过而不是一时冲动吗</AddIRCMessage>
+   <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="60">......我想好了，无论如何我也要去见她，或许她有什么难言之隐...</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="62">...好吧，事实上，我的线人还发现了一座类似基站的设备，恐怕...功能要比基站能做的要多，它的作者..又是Pot</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="64">请务必摧毁那座基站，考虑到其体积，我拿来了一些“有趣的东西”，具体任务目标我写在了任务里。</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="65">而其他人的任务则是在Star内部安插监听器，为以后的任务做准备</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="67">@channel 做好任何情况的发生，因为现在，我们已经没有回头路了......</AddIRCMessage>
+   <AddMissionToHubServer MissionFilepath="Missions/5.xml" TargetComp="DCDHS" />
+   <AddMissionToHubServer MissionFilepath="Missions/other/5.2.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+   <AddMissionToHubServer MissionFilepath="Missions/other/5.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+   <AddMissionToHubServer MissionFilepath="Missions/other/5.T.xml" TargetComp="DCDHS" AssignmentTag="Tom"/>
+  </Instantly>
+</ConditionalActions>

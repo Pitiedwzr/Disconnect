@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="STARWT" 
+          name="Star - 白虎" 
+          ip="268.535.853.4"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCServer"  
+          type="1" > 
+
+
+  <portsForCrack val="0" />
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
+
+ 
+  
+</Computer>

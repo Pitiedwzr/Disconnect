@@ -1,0 +1,12 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+writel 等等 $#%#$
+delay 4 $#%#$
+writel HY......总感觉这个名字... $#%#$
+delay 4 $#%#$
+writel 好像在哪里见过 $#%#$
+delay 4 $#%#$
+writel 为什么之前没有这种感觉...? $#%#$
+delay 4 $#%#$
+writel 大概...是错觉吧...

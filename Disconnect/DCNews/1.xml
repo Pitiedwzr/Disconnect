@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DCNEWS1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT#关于Disconnect News">
+   本新闻服务器由Peter搭建，作用是提供一些Disconnect情报网涉及不到的消息，内容与主流媒体同步。
+   如需维护，请联系Peter@jmail.com
+  </posting>
+  <email>
+    <sender>NONE</sender>
+    <subject>NONE</subject>
+    <body>NONE</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

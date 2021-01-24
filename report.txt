@@ -1,0 +1,120 @@
+Errors Found. Writing report to Extensions/Disconnect/report.txt
+
+Load Error:
+System.FormatException 
+ 
+COMPUTER LOAD ERROR:
+Error loading computer "Extensions/Disconnect/Nodes\Core\DisconnectNews.xml" 
+Error: DirectoryNotFoundException - Could not find a part of the path
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'.
+ 
+Source : Hacknet 
+ 
+System.FormatException: COMPUTER LOAD ERROR:
+Error loading computer "Extensions/Disconnect/Nodes\Core\DisconnectNews.xml" 
+Error: DirectoryNotFoundException - Could not find a part of the path
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'. --->
+System.IO.DirectoryNotFoundException: Could not find a part of the path
+'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit() 
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String
+   searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+
+   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption) 
+   at System.IO.DirectoryInfo.GetFiles(String searchPattern) 
+   at Hacknet.MissionListingServer.addListingsForGroup() 
+   at Hacknet.MissionListingServer.initFiles() 
+   at Hacknet.Computer.initDaemons() 
+   at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
+   preventInitDaemons)
+
+   at Hacknet.Computer.loadFromFile(String filename) 
+   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
+   filename)
+
+   --- End of inner exception stack trace --- 
+   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
+   filename)
+
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object os_obj) 
+   at Hacknet.OS.LoadContent() 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
+   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername, ScreenManager
+   screenMan)
+
+   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String path,
+   Int32& errorsAdded)
+ 
+Inner : --------------- 
+ 
+System.IO.DirectoryNotFoundException  
+      
+    Could not find a part of the path 
+    'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'. 
+      
+    Source : mscorlib  
+      
+    System.IO.DirectoryNotFoundException: Could not find a part of the path 
+    'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'. 
+     
+       at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)  
+       at System.IO.FileSystemEnumerableIterator`1.CommonInit()  
+       at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String 
+       searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+     
+       at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)  
+       at System.IO.DirectoryInfo.GetFiles(String searchPattern)  
+       at Hacknet.MissionListingServer.addListingsForGroup()  
+       at Hacknet.MissionListingServer.initFiles()  
+       at Hacknet.Computer.initDaemons()  
+       at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
+       
+
+       preventInitDaemons) 
+     
+       at Hacknet.Computer.loadFromFile(String filename)  
+       at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String 
+       filename) 
+      
+      
+      
+       at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)  
+       at System.IO.FileSystemEnumerableIterator`1.CommonInit()  
+       at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String 
+       searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+     
+       at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)  
+       at System.IO.DirectoryInfo.GetFiles(String searchPattern)  
+       at Hacknet.MissionListingServer.addListingsForGroup()  
+       at Hacknet.MissionListingServer.initFiles()  
+       at Hacknet.Computer.initDaemons()  
+       at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
+       
+
+       preventInitDaemons) 
+     
+       at Hacknet.Computer.loadFromFile(String filename)  
+       at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String 
+       filename) 
+ 
+ 
+ 
+   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
+   filename)
+
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
+   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object os_obj) 
+   at Hacknet.OS.LoadContent() 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
+   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
+   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername, ScreenManager
+   screenMan)
+
+   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String path,
+   Int32& errorsAdded)

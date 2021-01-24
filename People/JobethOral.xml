@@ -15,7 +15,7 @@
   <Medical>
     <Blood>AB</Blood>
     <Height>183</Height> <!-- Height in cm -->
-    <Allergies>青霉素</Allergies>
+    <Allergies>霉素类</Allergies>
     <Perscription>肝素X50 :: 预防血栓形成</Perscription>
 
     

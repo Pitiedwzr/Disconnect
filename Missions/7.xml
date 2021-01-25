@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="DHSM7" activeCheck="false" shouldIgnoreSenderVerification="false">
   <goals>
-<goal type="hasflag" target="oral:DEAD"/>
+<goal type="hasflag" target="J_Oral:DEAD"/>
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/DHSend/7END.xml</missionEnd> 
   <nextMission>NONE</nextMission>

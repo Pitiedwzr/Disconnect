@@ -4,6 +4,7 @@
           security="2"
           allowsDefaultBootModule="false"
           icon="DLCPC2" 
+          ip="95.117.38.994"
           type="1" > 
 
   <portsForCrack val="2" />

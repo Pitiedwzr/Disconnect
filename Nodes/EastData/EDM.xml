@@ -21,7 +21,7 @@
   
   <account username="Alex" password="G67834H" type="MAIL" />
   
-  
+  <account username="Pitiedwzr" password="123456" type="MAIL" />
   <mailServer name="EastData 邮箱" color="234,156,25" generateJunk="true">
      
 	 <email recipient="Jesses" sender="Alex" subject="重置密码">

@@ -16,7 +16,7 @@ ROOTKIT
  AI经过不断学习理论上可以修正需要人工干预的问题 甚至超越后者
 
 跳板系统Gateway Server
-
+12clock?never gonna give you (up)lol
 难度选择
 ·Simple
 ·Difficult
@@ -26,3 +26,33 @@ ROOTKIT
 DC2
 *******BOOTKIT*******
 ·AER-S
+
+获取档案……
+姓名：Lihota, Addi
+年龄：22
+职业：软件工程，Netsec（Schiss-Co创新实验室）
+档案描述：（空）
+关注的页面：Perturbator, Emancipator, What's the deal with Bee Movie Memes, CFC: Colonel's Fried Chicken, ePad Giveaway Page（更多）
+加入日期：07/11/2010
+上次登录：3小时前(03:22 GMT+1)
+上次IP：17.5.3.9
+关联档案：363
+最近查看的档案：Ani Lihota（哥哥）， Devi Muhammad, Jaswinder Esan（合作者）, Sharma Lihota（妈妈）, Simon Bestman（不是朋友）（更多）
+最近联系人: Ani Lihota (哥哥), Sharma Lihota (妈妈)
+
+<encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Psylance Incident Report v2">
+Psylance Cyber Security - internal investigations division.
+---------------------------------------
+
+对太平洋航空航班PA_0022上设备突然失灵的调查正在进行，但初步报告显示它是由于机上固件故障所致。
+Psylance服务器仍然安全，并且在事故期间并未表现出低于预期的表现。（事实上，这起事故表明应用Skylink和相关服务器的远程监视能力大有前途——比以往预期的延迟更低）。
+
+固件故障似乎出现在747FlightOps.dll——在目前为止的罕见情况下，固件会停止对飞行员的控制响应病需要重启固件（我们在本案例中就看到它成功重启了）
+Psylance建议调查本模块后的软件供应商，并为全部飞行员培训固件重启流程，以防遇到这种可能间歇性出现的罕见情况。
+
+和往常一样，Psylance网络安全尽最大可能保障您的数据、记录和安全性。我们将继续对该状况进行监视，以确保您的网络在这个微妙的时刻安全无虞。
+  </encryptedFile>
+   The command to add a line to the whitelist (this works in game) is:
+  "append filename ip"
+  so like this:
+  "append list.txt 192.168.1.1"

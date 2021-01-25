@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="TomLaptop" name="Tom 笔记本" security="4" icon="DLCLaptop"  allowsDefaultBootModule="false" type="1" >
+<Computer id="TomLaptop" name="Tom 笔记本" security="4" icon="DLCLaptop"  allowsDefaultBootModule="false" ip="597.91.59.575" type="1" >
 
 
 <ports>21, 22, 25, 80</ports>

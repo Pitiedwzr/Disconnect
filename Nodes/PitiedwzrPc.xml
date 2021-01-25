@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="D3F4ultWorkstation" name="D3F4ult 工作站" security="3"  allowsDefaultBootModule="false" ip="334.479.522.5896" type="1" >
+<Computer id="PitiedwzrPc" name="Pitiedwzr 个人电脑" security="5"  allowsDefaultBootModule="false" icon="dlcpc1" ip="85.833.214.5403" type="empty" >
 
 
   <trace time="70" />
@@ -17,6 +17,6 @@
   <customthemefile path="sys" name="D3F4ult_x-server.sys" themePath="Themes/AbstractBlurryTheme.xml"/>
 
 
-<dlink target="D3F4ultTracker" />
+
 
 </Computer>

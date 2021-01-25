@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="playerComp" name="#PLAYERNAME# 网关" security="4" allowsDefaultBootModule="false" type="1" >
+<Computer id="playerComp" name="#PLAYERNAME# 网关" security="4" allowsDefaultBootModule="false" ip="91.634.617.339" type="1" >
 
 <adminPass pass="rhfggfuduuad" />
 <account username="#PLAYERNAME#" password="7945bguyqwnjdyu" type="ADMIN" />

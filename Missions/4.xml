@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="DHSM4" activeCheck="false" shouldIgnoreSenderVerification="false">
   <goals>
-	<goal type="fileupload" target="TPHSTAR" file="Star.dec" path="home" destTarget="DCDrop" destPath="Drop/Uploads"/>
+    <goal type="fileupload" target="TPHSTAR" file="Star.dec" path="home" destTarget="DCDrop" destPath="Drop/Uploads"/>
   </goals>
-  <missionEnd val="0">loadConditionalActions:Actions/DHSend/4END.xml</missionEnd> 
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/4END.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Star-再一次-#PLAYERNAME#" reqs="DHSM4" >
+  <posting title="Star-再一次-#PLAYERNAME#" reqs="DHSM4">
     调查TPH与Star的联系
   </posting>
   <!-- 
@@ -28,9 +28,9 @@
 	  进入TPH的内部服务器
 	  找到与Star有关的文件
 	  上传至共享服务器
-	  </note>
-	  <link comp="PLTPH" />
-	  <link comp="DCDrop" />
+      </note>
+      <link comp="PLTPH" />
+      <link comp="DCDrop" />
     </attachments>
   </email>
 </mission>

@@ -3,9 +3,9 @@
   <goals>
 
   </goals>
-  <missionEnd val="0">loadConditionalActions:Actions/DHSend/6END.xml</missionEnd> 
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/6END.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Star-营救" reqs="DHSM6" >
+  <posting title="Star-营救" reqs="DHSM6">
     解救Tom
   </posting>
   <!-- 
@@ -15,13 +15,13 @@
     <sender>Pitiedwzr</sender>
     <subject>营救</subject>
     <body>
-	
-</body>
+
+    </body>
     <attachments>
       <note title="笔记">
-	
-	  </note>
-	  <link comp="" />
+
+      </note>
+      <link comp="" />
     </attachments>
   </email>
 </mission>

@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="DHSM7" activeCheck="false" shouldIgnoreSenderVerification="false">
   <goals>
-<goal type="hasflag" target="J_Oral:DEAD"/>
+    <goal type="hasflag" target="J_Oral:DEAD"/>
   </goals>
-  <missionEnd val="0">loadConditionalActions:Actions/DHSend/7END.xml</missionEnd> 
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/7END.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Star-镜面" reqs="DHSM7" >
+  <posting title="Star-镜面" reqs="DHSM7">
     刺杀一位Star激进方关键成员
   </posting>
   <!-- 
@@ -16,12 +16,12 @@
     <subject>镜面</subject>
     <body>
 
-</body>
+    </body>
     <attachments>
       <note title="笔记">
 
-	  </note>
-	  <link comp="" />
+      </note>
+      <link comp="" />
     </attachments>
   </email>
 </mission>

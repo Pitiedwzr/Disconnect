@@ -1,12 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="DHSM1" activeCheck="false" shouldIgnoreSenderVerification="false">
   <goals>
-<goal type="fileupload" target="PA3451FDR" file="PA3451FlightData.fdr" path="home" destTarget="PLDrop" destPath="Investigations/Uploads"/>
-<goal type="fileupload" target="PA3451CVR" file="PA3451VoiceData.cvr" path="home" destTarget="PLDrop" destPath="Investigations/Uploads"/>
+    <goal type="fileupload" target="PA3451FDR" file="PA3451FlightData.fdr" path="home" destTarget="PLDrop" destPath="Investigations/Uploads"/>
+    <goal type="fileupload" target="PA3451CVR" file="PA3451VoiceData.cvr" path="home" destTarget="PLDrop" destPath="Investigations/Uploads"/>
   </goals>
-  <missionEnd val="0">loadConditionalActions:Actions/DHSend/FAEND.xml</missionEnd> 
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/FAEND.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Find Aircraft - #PLAYERNAME#" reqs="DHSM4" >
+  <posting title="Find Aircraft - #PLAYERNAME#" reqs="DHSM4">
   寻找飞机的事故原因并提交证据，为了Pot
   </posting>
   <!-- 
@@ -24,14 +24,14 @@
 	-P
     </body>
     <attachments>
-	<note title="笔记">
+      <note title="笔记">
 	不着痕迹地进入Psylance和PacificAir的服务器网络
 	找到三号信标
 	通过信标找到CVR与FDR
 	将记录文件上传至Psylance事故调查服务器
-	  </note>
-	  <link comp="PLDrop" />
-	  <link comp="PAWeb" />
+      </note>
+      <link comp="PLDrop" />
+      <link comp="PAWeb" />
     </attachments>
   </email>
 </mission>

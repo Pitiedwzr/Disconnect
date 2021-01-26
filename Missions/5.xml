@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="DHSM5" activeCheck="false" shouldIgnoreSenderVerification="false">
   <goals>
-	
+
   </goals>
-  <missionEnd val="0">loadConditionalActions:Actions/DHSend/5END.xml</missionEnd> 
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/5END.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="来自远方的杂音-#PLAYERNAME#" reqs="DHSM5" >
+  <posting title="来自远方的杂音-#PLAYERNAME#" reqs="DHSM5">
    安插监视器，为今后的任务做准备。
   </posting>
   <!-- 
@@ -15,13 +15,13 @@
     <sender>Pitiedwzr</sender>
     <subject>来自远方的杂音</subject>
     <body>
-    
+
     </body>
     <attachments>
       <note title="笔记">
 
-	  </note>
-	  <link comp="STARW" />
+      </note>
+      <link comp="STARW" />
     </attachments>
   </email>
 </mission>

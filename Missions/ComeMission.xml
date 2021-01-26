@@ -2,9 +2,9 @@
 <mission id="ComeMission">
   <goals>
     <!-- Goals here -->
-	
+
   </goals>
-<missionStart val="1">addRankSilent</missionStart>
+  <missionStart val="1">addRankSilent</missionStart>
   <!-- 
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
@@ -19,13 +19,13 @@
     <subject>Disconnect - 漂亮！</subject>
     <body>
 		漂亮！你完成了入组测试。
-	好了，现在你可以到DHS去看看了。
-</body>
+	  好了，现在你可以到DHS去看看了。
+    </body>
     <attachments>
       <!-- Add attachments like links and notes here -->
-	  <link comp="DCDHS" />
-	  <link comp="DCDrop" />
-	  <account comp="DCDrop" user="admin" pass="DC" />
+      <link comp="DCDHS" />
+      <link comp="DCDrop" />
+      <account comp="DCDrop" user="admin" pass="DC" />
     </attachments>
   </email>
 </mission>

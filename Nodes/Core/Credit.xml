@@ -1,14 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="Credit" 
-          name="Disconnect Credit" 
-		  ip="985.83.3.214"
-          allowsDefaultBootModule="true"
-          icon="chip" 
-          type="1" > 
+<Computer id="Credit" name="Disconnect Credit" ip="985.83.3.214" allowsDefaultBootModule="true" icon="chip" type="1">
 
   <portsForCrack val="0" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
- <file path="home" name="CreditsData.txt"> 
+  <file path="home" name="CreditsData.txt"> 
   ----Disconnect----
 
 ^作者：
@@ -18,9 +13,10 @@ Pitiedwzr
 ^剧情：
 
 Pitiedwzr
+AqurisindX
 
 ^灵感：
-AqurisindX
+
 Kingsman:The Secret Service
 HITMAN6
 WORSE OR BEST
@@ -93,9 +89,9 @@ xiao_yong
 ^BY Pitiedwzr
 
 
-</file>
-  
+  </file>
 
-<CreditsDaemon Title="Disconnect Project" ButtonText="断开与Disconnet深层网络的链接" ConditionalActionSetToRunOnButtonPressPath="Actions/Credit.xml"/>
-   
+
+  <CreditsDaemon Title="Disconnect Project" ButtonText="断开与Disconnet深层网络的链接" ConditionalActionSetToRunOnButtonPressPath="Actions/Credit.xml"/>
+
 </Computer>

@@ -1,70 +1,60 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="DCData" 
-          name="Disconnect 特工数据库" 
-          ip="786.5.5.5"
-          security="5"
-          allowsDefaultBootModule="true"
-          icon="dlcpc2" 
-          type="empty" > 
-		  
-		  
-		  
-<adminPass pass="qscftgbhu" />
+<Computer id="DCData" name="Disconnect 特工数据库" ip="786.5.5.5" security="5" allowsDefaultBootModule="true" icon="dlcpc2" type="empty">
+  <adminPass pass="qscftgbhu" />
   <portsForCrack val="6" />
   <ports>22, 21, 6881, 443, 192</ports>
-
   <DatabaseDaemon Permissions="private" DataType="AgentDetails" Foldername="database" Color="85,0,150" AdminEmailAccount="Pitiedwzr@eastdata.com" AdminEmailHostID="EDM" Name="Test database">
 
     <AgentDetails>
       <Codename>Pitiedwzr</Codename>
       <RealName>Jianian Tao</RealName>
       <IP>85.833.214.5403</IP>
-      <SpecialNotes>NONE</SpecialNotes> 
+      <SpecialNotes>NONE</SpecialNotes>
     </AgentDetails>
 
     <AgentDetails>
       <Codename>Kaguya</Codename>
       <RealName>Dreadnought</RealName>
       <IP>54.183.231.31</IP>
-      <SpecialNotes>MISSING</SpecialNotes> 
+      <SpecialNotes>MISSING</SpecialNotes>
     </AgentDetails>
 
     <AgentDetails>
       <Codename>D3F4ult</Codename>
       <RealName>UNKNOWN</RealName>
       <IP>334.479.522.5896</IP>
-      <SpecialNotes>NONE</SpecialNotes> 
+      <SpecialNotes>NONE</SpecialNotes>
     </AgentDetails>
 
     <AgentDetails>
       <Codename>Coel</Codename>
       <RealName>UNKNOWN</RealName>
       <IP>208.73.210.214</IP>
-      <SpecialNotes>NONE</SpecialNotes> 
+      <SpecialNotes>NONE</SpecialNotes>
     </AgentDetails>
 
     <AgentDetails>
       <Codename>Tom</Codename>
       <RealName>Wenhua Tao</RealName>
       <IP>597.91.59.575</IP>
-      <SpecialNotes>DEAD</SpecialNotes> 
+      <SpecialNotes>DEAD</SpecialNotes>
     </AgentDetails>
 
     <AgentDetails>
       <Codename>Pot</Codename>
       <RealName>Xinyu Peng</RealName>
       <IP>95.117.38.994</IP>
-      <SpecialNotes>DEAD</SpecialNotes> 
+      <SpecialNotes>DEAD</SpecialNotes>
     </AgentDetails>
 
     <AgentDetails>
-      <Codename>#PLAYERNAME#</Codename>
+      <Codename>*****ERROR*****</Codename>
       <RealName>UNKNOWN</RealName>
       <IP>91.634.617.339</IP>
-      <SpecialNotes>NONE</SpecialNotes> 
+      <SpecialNotes>UNKNOWN</SpecialNotes>
     </AgentDetails>
-    
+
   </DatabaseDaemon>
 
-  
+
 </Computer>

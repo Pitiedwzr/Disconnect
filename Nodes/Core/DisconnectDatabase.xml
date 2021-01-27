@@ -51,7 +51,7 @@
       <Codename>*****ERROR*****</Codename>
       <RealName>UNKNOWN</RealName>
       <IP>91.634.617.339</IP>
-      <SpecialNotes>UNKNOWN</SpecialNotes>
+      <SpecialNotes>ERROR：多个相同记录无法同时存在</SpecialNotes>
     </AgentDetails>
 
   </DatabaseDaemon>

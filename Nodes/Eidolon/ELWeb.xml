@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ELWeb" name="Eidolon 网络服务器" security="5" ip="383.996.264.21" type="empty">
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 554, 192</ports>
+  <portRemap>22=340,192=183</portRemap>
+  <admin type="progress"/>
+
+  <addWebServer name="PacificAir" url="web\Eidolon\Eidolon.html" />
+</Computer>

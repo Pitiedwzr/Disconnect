@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="Simple" name="Simple模式" security="4" allowsDefaultBootModule="true" type="empty">
+  <portsForCrack val="0" />
+  <ports>21, 22, 25, 80</ports>
+</Computer>

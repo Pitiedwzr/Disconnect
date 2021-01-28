@@ -1,29 +1,23 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="cheat" 
-          name="Cheat" 
-          ip="1337.1337.1337.1337"
-          security="1"
-          allowsDefaultBootModule="false"
-          icon="chip" 
-          type="1" > 
+<Computer id="Cheat" name="S.O.B" ip="1337.1337.1337.1337" security="1" allowsDefaultBootModule="false" icon="chip" type="empty">
 
-<adminPass pass="cheatisbad" />
+  <adminPass pass="imafxxkinghacker" />
 
-  <portsForCrack val="0" />
-  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
+  <portsForCrack val="14" />
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659, 211</ports>
 
- <FastActionHost/>
- <addWebServer name="404 - Page Not Found" url="web\404Page.html" />
+  <FastActionHost/>
+  <addWebServer name="404 - Page Not Found" url="web\404Page.html" />
   <memoryDumpFile name="Star.png" path="home">
-  <Memory>
-    <Images>
-      <Image>Star/Star.png</Image>
-    </Images>
-  </Memory>
+    <Memory>
+      <Images>
+        <Image>Star/Star.png</Image>
+      </Images>
+    </Memory>
   </memoryDumpFile>
 
-	  
-    <file path="home" name="Corrupted_Firmware.dll">#PACEMAKER_FW_DANGER#</file>
+
+  <file path="home" name="Corrupted_Firmware.dll">#PACEMAKER_FW_DANGER#</file>
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
@@ -103,6 +97,6 @@
   <customthemefile path="sys" name="Dino-Green_Theme.sys" themePath="Themes/DinoTheme-Green.xml"/>
   <customthemefile path="sys" name="Dino-White_Theme.sys" themePath="Themes/DinoTheme-White.xml"/>
   <customthemefile path="sys" name="Dino-Purple_Theme.sys" themePath="Themes/DinoTheme-Purple.xml"/>
-  
-  
+
+
 </Computer>

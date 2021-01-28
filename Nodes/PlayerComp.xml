@@ -9,7 +9,7 @@
     <proxy time="1" />
     <portsForCrack val="5" />
     <trace time="50" />
-    <firewall level="11" solution="nj7834fhf5f64524rfi3g56" additionalTime="0.5"/>
+    <firewall level="7" solution="f5f3g56" additionalTime="0.5"/>
     <CustomConnectDisplayDaemon />
 
     <dlink target="playerTracker" />

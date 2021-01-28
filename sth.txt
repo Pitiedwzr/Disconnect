@@ -20,6 +20,8 @@ ROOTKIT
 难度选择
 ·Simple
 ·Difficult
+  addFlags:flagname1,flagname2,flagname3,etc
+  removeFlags:flagname1,flagname2,flagname3,etc
 
 =====================================================================
 

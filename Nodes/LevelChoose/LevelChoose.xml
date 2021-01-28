@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="LC" name="难度选择" ip="1.2.3.4" security="4" allowsDefaultBootModule="true" type="empty">
+  <portsForCrack val="0" />
+  <ports>21, 22, 25, 80</ports>
+  <trace time="-1" />
+  <variableMissionListingServer name="难度选择" iconPath="LevelChoose/Logo.png" articleFolderPath="LevelChoose" color="46,49,124" assigner="false" public="true" title="Disconnect News"/>
+  <dlink target="Simple" />
+  <dlink target="Hard" />
+</Computer>

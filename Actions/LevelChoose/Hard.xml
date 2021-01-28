@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <OnConnect target="Hard" needsMissionComplete="false">
+    <RunFunction FunctionName="removeFlags:SimpleMode"/>
+    <AddConditionalActions Filepath="Actions/LevelChoose/Simple.xml" DelayHost="Cheat" Delay="1"/>
+  </OnConnect>
+</ConditionalActions>

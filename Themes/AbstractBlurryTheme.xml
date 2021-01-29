@@ -42,7 +42,6 @@
   <topBarIconsColor>255,255,255</topBarIconsColor>
   <thisComputerNode>95,220,83</thisComputerNode>
   <scanlinesColor>255,255,255,15</scanlinesColor>
-  
   <!-- AlienFX Colors used for Alienware (and other) hardware with variable LED lights that Hacknet can set dynamically -->
   <AFX_KeyboardMiddle>0,120,255</AFX_KeyboardMiddle>
   <AFX_KeyboardOuter>255,150,0</AFX_KeyboardOuter>

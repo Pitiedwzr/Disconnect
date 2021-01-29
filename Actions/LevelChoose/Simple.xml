@@ -1,6 +1,7 @@
 <ConditionalActions>
   <OnConnect target="Simple" needsMissionComplete="false">
     <RunFunction FunctionName="addFlags:SimpleMode"/>
+    <LaunchHackScript Filepath="HackerScripts/LevelChoose.txt" DelayHost="Cheat" Delay="1" SourceComp="DCDHS" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
     <AddConditionalActions Filepath="Actions/LevelChoose/Hard.xml" DelayHost="Cheat" Delay="1"/>
   </OnConnect>
 </ConditionalActions>

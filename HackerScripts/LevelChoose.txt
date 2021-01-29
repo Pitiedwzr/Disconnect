@@ -1,0 +1,3 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+delay 4 $#%#$
+writel_silent 模式切换完成 $#%#$

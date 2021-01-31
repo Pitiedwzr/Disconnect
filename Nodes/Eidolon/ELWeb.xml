@@ -4,7 +4,7 @@
   <proxy time="4" />
   <trace time="75" />
   <portsForCrack val="5" />
-  <ports>22, 25, 443, 554, 192</ports>
+  <ports>22, 25, 443, 554, 192, 80</ports>
   <portRemap>22=340,192=183</portRemap>
   <admin type="progress"/>
 

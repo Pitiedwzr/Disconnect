@@ -1,10 +1,18 @@
 DC-1:
+<file name="Notes.txt">ababab
+
+----------
+
+babab</file>
+控制Notes的显示内容
+
 叛逃线
  一个好的黑客不会背叛他的组织，无论代价是什么。
  一个更好的黑客知道当他想背叛他的组织时，什么时候应该伪装。
  一个最好的黑客会精明地确立自己的绝对领导者，并引领着自己走向更好的未来。
 
 顺从线
+
 
 =====================================================================
 
@@ -16,7 +24,21 @@ ROOTKIT
  AI经过不断学习理论上可以修正需要人工干预的问题 甚至超越后者
 
 跳板系统Gateway Server
-12clock?never gonna give you (up)lol
+
+<file name="ShellSources.txt">#OpShell_IP_SourceCache
+1337.1337.1337.1337
+Hard
+Simple
+1.2.3.4
+91.634.617.339
+
+98.2.3.4 
+98.2.3.4 
+786.8.8.8 </file>
+控制Opshell的节点，组合技应该挺好使
+
+12clock-never gonna give you (up)
+
 难度选择
 ·Simple
 ·Difficult

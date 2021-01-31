@@ -1,6 +1,6 @@
 <CustomTheme>
   <themeLayoutName>greencompact</themeLayoutName>
-  <backgroundImagePath>Themes/Backgrounds/Moon.png</backgroundImagePath>
+  <backgroundImagePath>Themes/Backgrounds/Moon.jpg</backgroundImagePath>
   <UseAspectPreserveBackgroundScaling>false</UseAspectPreserveBackgroundScaling>
   <BackgroundImageFillColor>0,0,0</BackgroundImageFillColor>
   <defaultHighlightColor>0,128,128</defaultHighlightColor>

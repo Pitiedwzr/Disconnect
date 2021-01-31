@@ -4,7 +4,9 @@
   <portsForCrack val="0" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
   <file path="home" name="CreditsData.txt"> 
-  ----Disconnect----
+^恭喜您解锁了：错误结局
+action未触发，或者您是一位肮脏的黑客？
+^  ----Disconnect----
 
 ^作者：
 
@@ -72,6 +74,7 @@ Rockwell
 ^测试者：
 qingcheng
 QingMu
+3IMiner
 
 ^特别感谢：
 AqurisindX
@@ -79,6 +82,7 @@ X-Wind
 qingcheng
 Kang_zi
 xiao_yong
+3IMiner
 我的所有朋友们
 
 以及...你..#PLAYERNAME#

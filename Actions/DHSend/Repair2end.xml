@@ -11,9 +11,15 @@
 	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="25.0">对了 D3F4ult呢..</AddIRCMessage>
 	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="27.0">我来了._.</AddIRCMessage>
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="30.0">@channel 欢迎归队！</AddIRCMessage>
-	<AddIRCMessage Author="Pot" TargetComp="DCDHS" Delay="32.0">日常整活</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="32.0">顺便一说，我找到了之前Bibliotheque的影子储存器，里面有用的东西我已经上传到共享服务器了</AddIRCMessage>
 	<AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="DCDrop" TargetFolderpath="bin" />
-	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="32.5">*** 用户 Pot 上传了文件！ ***</AddIRCMessage>
+	<AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="DCDrop" TargetFolderpath="bin" />
+    <AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="DCDrop" TargetFolderpath="bin" />
+    <AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="DCDrop" TargetFolderpath="bin" />
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="DCDrop" TargetFolderpath="bin" />
+	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="32.5">*** 用户 Pitiedwzr 上传了文件！ ***</AddIRCMessage>
 	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="33.0">等一下...有一个重要的问题 Kaguya在哪儿？</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="35.0">Kaguya.....</AddIRCMessage>
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="37.0">@Coel @#PLAYERNAME# 这就是我接下来要说的</AddIRCMessage>

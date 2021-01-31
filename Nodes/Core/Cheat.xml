@@ -16,7 +16,33 @@
     </Memory>
   </memoryDumpFile>
 
+  <file path="bin/FastShell" name="info.txt">
+FastShell组合事实上是由OpShell和ComShell组成的
 
+原理很简单 OpShell读取配置 ComShell过载
+
+但我还发现一个更有趣的事情
+
+OpShell与Hacknet OS的联动意外的有效率
+
+简单来说 在Hacknet OS中 有一个控制OpShell的文件
+
+ShellSources.txt
+
+它决定了OpShell开启的Shell 也就是说设置一次ShellSources就可以一直使用 可以说简便了不少
+
+我已经制作好了一个ShellSources.txt 在Hacknet OS中它应该放置在sys文件夹下
+
+在使用ShellSources前你应该连接到那些服务器并且获取它们的管理员权限
+
+本目录下的ShellSources中的Shell IP为Proxy1 Proxy2 Proxy3 Proxy4
+  </file>
+  <file path="bin/FastShell" name="ShellSources.txt">#OpShell_IP_SourceCache
+Proxy1
+Proxy2
+Proxy3
+Proxy4
+</file>
   <file path="home" name="Corrupted_Firmware.dll">#PACEMAKER_FW_DANGER#</file>
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>

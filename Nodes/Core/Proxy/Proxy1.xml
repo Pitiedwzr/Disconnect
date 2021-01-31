@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="P1" name="Disconnect Proxy1" ip="Proxy1" security="1" allowsDefaultBootModule="false" type="empty">
+  <portsForCrack val="0" />
+  <ports>443, 22</ports>
+</Computer>

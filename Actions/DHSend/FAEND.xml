@@ -9,7 +9,7 @@
 	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="17">是的...</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="20">...</AddIRCMessage>
 	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="22">为什么这两家公司会有联系？</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="23">...等等，你们记不记得上次探索TPH的服务器？在保修记录中，有一条是关于ROOTKIT的...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="23">...等等，我记得上次TPH的服务器中，保修记录有一条是关于ROOTKIT的...</AddIRCMessage>
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25">该死...我想，我们有必要调查TPH了</AddIRCMessage>
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="28">@channel 干活了</AddIRCMessage>
 	<AddMissionToHubServer MissionFilepath="Missions/Other/4.1.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>

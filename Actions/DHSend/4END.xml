@@ -5,7 +5,8 @@
    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="8">...看起来是个加密文件...还是有密码的</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="11">@D3F4ult 能不能解密？</AddIRCMessage>
    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="14">应该可以...给我一点时间...</AddIRCMessage>
-   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="17">嗯</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="16">嗯</AddIRCMessage>
+   <LaunchHackScript Filepath="HackerScripts/playerMemories.txt" DelayHost="Cheat" Delay="16" SourceComp="DCDHS" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="24">好了，密码是2514RD5325，解密后的文件已经上传到共享服务器</AddIRCMessage>
    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="25">*** 用户 D3F4ult 上传了文件 ***</AddIRCMessage>
    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="27">是个png文件？</AddIRCMessage>
@@ -27,6 +28,14 @@
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="64">请务必摧毁那座基站，考虑到其体积，我拿来了一些“有趣的东西”，具体任务目标我写在了任务里。</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="65">而其他人的任务则是在Star内部安插监听器，为以后的任务做准备</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="67">@channel 做好任何情况的发生，因为现在，我们已经没有回头路了......</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="68">呃，顺便一说，Peter给我发来了一些*新玩具*</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="70">这些东西看起来可以省去我们在破解代理上的不少麻烦，具体的我已经上传到共享服务器的bin/FastShell下了</AddIRCMessage>
+   <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="71">*** 用户 Coel 上传了文件 ***</AddIRCMessage>
+   
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="OpShell.exe" SourceFilePath="bin" />
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="ComShell.exe" SourceFilePath="bin" />
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="info.txt" SourceFilePath="bin/FastShell" />
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="ShellSources.txt" SourceFilePath="bin/FastShell" />
    <AddMissionToHubServer MissionFilepath="Missions/5.xml" TargetComp="DCDHS" />
    <AddMissionToHubServer MissionFilepath="Missions/other/5.2.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
    <AddMissionToHubServer MissionFilepath="Missions/other/5.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>

@@ -29,13 +29,14 @@
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="65">而其他人的任务则是在Star内部安插监听器，为以后的任务做准备</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="67">@channel 做好任何情况的发生，因为现在，我们已经没有回头路了......</AddIRCMessage>
    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="68">呃，顺便一说，Peter给我发来了一些*新玩具*</AddIRCMessage>
-   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="70">这些东西看起来可以省去我们在破解代理上的不少麻烦，具体的我已经上传到共享服务器的bin/FastShell下了</AddIRCMessage>
-   <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="71">*** 用户 Coel 上传了文件 ***</AddIRCMessage>
-   
-   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="OpShell.exe" SourceFilePath="bin" />
-   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="ComShell.exe" SourceFilePath="bin" />
-   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="info.txt" SourceFilePath="bin/FastShell" />
-   <CopyAsset DestFilePath="bin/FastShell" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="ShellSources.txt" SourceFilePath="bin/FastShell" />
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="70">这些东西看起来可以省去我们在破解代理上的不少麻烦，具体的Peter已经上传到一个服务器上了</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="71">!ATTACHMENT:link#%#FastShell Core#%#209.15.13.134</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="72">!ATTACHMENT:account#%#FastShell Core#%#412.26.39.343#%#admin#%#FSC-412526399</AddIRCMessage>
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="FSC" SourceComp="Cheat" SourceFileName="OpShell.exe" SourceFilePath="bin" />
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="FSC" SourceComp="Cheat" SourceFileName="ComShell.exe" SourceFilePath="bin" />
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="FSC" SourceComp="Cheat" SourceFileName="info.txt" SourceFilePath="bin/FastShell" />
+   <CopyAsset DestFilePath="bin/FastShell" DestComp="FSC" SourceComp="Cheat" SourceFileName="ShellSources.txt" SourceFilePath="bin/FastShell" />
+   <AddConditionalActions Filepath="Actions/DHS/FastShell.xml" DelayHost="Cheat" Delay="70" />
    <AddMissionToHubServer MissionFilepath="Missions/5.xml" TargetComp="DCDHS" />
    <AddMissionToHubServer MissionFilepath="Missions/other/5.2.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
    <AddMissionToHubServer MissionFilepath="Missions/other/5.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>

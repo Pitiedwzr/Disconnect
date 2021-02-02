@@ -11,7 +11,7 @@ writel 好像在哪里见过 $#%#$
 delay 2 $#%#$
 writel 为什么之前没有这种感觉...? $#%#$
 delay 2 $#%#$
-writel 大概...是错觉吧...
+writel 大概...是错觉吧... $#%#$
 delay 2 $#%#$
 clearTerminal $#%#$
 showNetMap $#%#$

@@ -1,0 +1,14 @@
+<ConditionalActions>
+  <OnConnect target="FSC">
+<GivePlayerUserAccount DelayHost="Cheat" Delay="1" TargetComp="Proxy1" Username="admin" />
+<GivePlayerUserAccount DelayHost="Cheat" Delay="1" TargetComp="Proxy2" Username="admin" />
+<GivePlayerUserAccount DelayHost="Cheat" Delay="1" TargetComp="Proxy3" Username="admin" />
+<GivePlayerUserAccount DelayHost="Cheat" Delay="1" TargetComp="Proxy4" Username="admin" />
+  </OnConnect>
+ 
+ 
+ 
+ 
+ 
+
+</ConditionalActions>

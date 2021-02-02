@@ -9,7 +9,7 @@
 		  
 		  
 		  
-<adminPass pass="57fy676ihgh6gfkgk6kgygbu6yvguyuiykvu" />
+<adminPass pass="57fy676ivu" />
   <portsForCrack val="6" />
   <ports>22, 21, 6881, 443, 192</ports>
    <DHSDaemon groupName="DCDHS" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="false" themeColor="102, 49, 161" allowContractAbbandon="false">

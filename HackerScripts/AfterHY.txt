@@ -4,20 +4,19 @@ writel ====Tracker Running...==== $#%#$
 delay 2 $#%#$
 writel HEY $#%#$
 delay 2 $#%#$
-writel ARE YOU OK $#%#$
+writel 你还好吗 $#%#$
 delay 2 $#%#$
-writel WELL,THATS LOOKS BAD $#%#$
+writel 呃，看起来不怎么样 $#%#$
 delay 2 $#%#$
-writel YOU LOST YOUR X-SERVER.SYS $#%#$
+writel 你的X-SERVER.SYS被删了 $#%#$
 delay 2 $#%#$
-writel YOUR COMPUTER HAS A TRACKER,YOU CAN SCAN IT AND DOWNLOAD X-SERVER.SYS FROM THERE $#%#$
+writel 好吧，事实上，你的电脑有一个追踪器,你可以scan到追踪器并从那上面下载x-server.exe $#%#$
 delay 2 $#%#$
-writel SORRY $#%#$
+writel 抱歉 $#%#$
 delay 2 $#%#$
-writel I MUST REPAIR CORE $#%#$
+writel 现在，我必须修复Disconnect CORE服务器 $#%#$
 delay 2 $#%#$
 writel GOOD LUCK $#%#$
 delay 2 $#%#$
 writel -P $#%#$
-delay 2 $#%#$
 

@@ -2,4 +2,7 @@
 <Computer id="P2" name="Disconnect Proxy2" ip="Proxy2" security="1" allowsDefaultBootModule="false" type="empty">
   <portsForCrack val="0" />
   <ports>443, 22</ports>
+  <dlink target="Proxy1" />
+  <dlink target="Proxy3" />
+  <dlink target="Proxy4" />
 </Computer>

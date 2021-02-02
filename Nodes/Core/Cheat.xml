@@ -35,7 +35,7 @@ ShellSources.txt
 
 在使用ShellSources前你应该连接到那些服务器并且获取它们的管理员权限
 
-本目录下的ShellSources中的Shell IP为Proxy1 Proxy2 Proxy3 Proxy4
+不过当你连接本服务器（FastShell Core）时管理员权限也会一起开放，所以直接登录那些代理服务器就好了
   </file>
   <file path="bin/FastShell" name="ShellSources.txt">#OpShell_IP_SourceCache
 Proxy1

@@ -1,20 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="PitiedwzrPc" name="Pitiedwzr 个人电脑" security="5"  allowsDefaultBootModule="false" icon="dlcpc1" ip="85.833.214.5403" type="empty" >
+<Computer id="PitiedwzrPc" name="Pitiedwzr 个人电脑" security="5" allowsDefaultBootModule="false" icon="dlcpc1" ip="85.833.214.54" type="empty">
 
 
   <trace time="70" />
   <portsForCrack val="4" />
   <ports>22, 21, 6881, 25, 443, 554, </ports>
 
-<portsForCrack val="4" />
+  <portsForCrack val="4" />
 
- <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
-  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
-  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
-  
-  
-  <customthemefile path="sys" name="x-server.sys" themePath="Themes/AbstractBlurryTheme.xml"/>
-  <customthemefile path="sys" name="D3F4ult_x-server.sys" themePath="Themes/AbstractBlurryTheme.xml"/>
+
+
+
+  <customthemefile path="sys" name="x-server.sys" themePath="Themes/PitiedwzrTheme.xml"/>
 
 
 

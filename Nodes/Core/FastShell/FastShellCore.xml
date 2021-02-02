@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FSC" name="FastShell Core" security="6" ip="412.26.39.343" allowsDefaultBootModule="true" icon="DLCServer" type="1">
+
+  <adminPass pass="FSC-412526399" />
+
+  <ports>22, 21, 6881, 443</ports>
+  <proxy time="3" />
+  <portsForCrack val="7" />
+  <admin type="none"/>
+  <dlink target="Proxy1" />
+  <dlink target="Proxy2" />
+  <dlink target="Proxy3" />
+  <dlink target="Proxy4" />
+</Computer>

@@ -3,7 +3,7 @@
 
 
 
-  <adminPass pass="qscftgbhu" />
+  <adminPass pass="DC-38239663356322" />
   <portsForCrack val="6" />
   <ports>22, 21, 6881, 443, 192</ports>
   <variableMissionListingServer name="Disconnect 新闻服务器" iconPath="Disconnect/Logo.png" articleFolderPath="Disconnect/DCNews" color="46,49,124" assigner="false" public="true" title="Disconnect News"/>

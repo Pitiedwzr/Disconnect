@@ -25,7 +25,7 @@ IT IS DEBUG VERSION!</Description>
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>true</HasIntroStartup>
+  <HasIntroStartup>false</HasIntroStartup>
   
   <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
   <!-- 

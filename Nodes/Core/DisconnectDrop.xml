@@ -10,7 +10,7 @@
 <uploadServerDaemon name="Disconnect共享" folder="Drop"
                     needsAuth="false" color="17,29,48" hasReturnViewButton="true"/>
 
-<adminPass pass="DC" /> 
+<adminPass pass="DC-38139963353490" /> 
 
 <ports>22, 21, 6881, 443</ports>
   <proxy time="3" />

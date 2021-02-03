@@ -1,9 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="DCData" name="Disconnect 特工数据库" ip="786.5.5.5" security="5" allowsDefaultBootModule="true" icon="dlcpc2" type="empty">
-  <adminPass pass="qscftgbhu" />
+  <adminPass pass="DC-382399633531535123" />
   <portsForCrack val="5" />
   <ports>22, 21, 6881, 443, 192</ports>
-  <DatabaseDaemon Permissions="private" DataType="AgentDetails" Foldername="database" Color="85,0,150" AdminEmailAccount="Pitiedwzr@eastdata.com" AdminEmailHostID="EDM" Name="Test database">
+  <DatabaseDaemon Permissions="private" DataType="AgentDetails" Foldername="database" Color="85,0,150" AdminEmailAccount="Pitiedwzr@eastdata.com" AdminEmailHostID="EDM" Name="Disconnect 特工数据库">
 
     <AgentDetails>
       <Codename>Pitiedwzr</Codename>

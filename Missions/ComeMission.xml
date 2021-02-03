@@ -25,7 +25,7 @@
       <!-- Add attachments like links and notes here -->
       <link comp="DCDHS" />
       <link comp="DCDrop" />
-      <account comp="DCDrop" user="admin" pass="DC" />
+      <account comp="DCDrop" user="admin" pass="DC-38139963353490" />
     </attachments>
   </email>
 </mission>

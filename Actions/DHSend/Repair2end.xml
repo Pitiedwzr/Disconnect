@@ -32,12 +32,12 @@
     <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="57.0">所以...Kaguya很可能...背叛了我们？</AddIRCMessage>
     <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="60.0">......</AddIRCMessage>
     <AddAsset FileName="@2_18.11.38.227_Disconnected" FileContents="@2 18.11.38.227 Disconnected" TargetComp="Tracker" TargetFolderpath="log" />
-    <CopyAsset DestFilePath="DCDrop" DestComp="home/x-server" SourceComp="Cheat" SourceFileName="Pitiedwzr_x-server.sys" SourceFilePath="sys/DC" />
-    <CopyAsset DestFilePath="DCDrop" DestComp="home/x-server" SourceComp="Cheat" SourceFileName="#PLAYERNAME#_x-server.sys" SourceFilePath="sys/DC" />
-    <CopyAsset DestFilePath="DCDrop" DestComp="home/x-server" SourceComp="Cheat" SourceFileName="Pot_x-server.sys" SourceFilePath="sys/DC" />
-    <CopyAsset DestFilePath="DCDrop" DestComp="home/x-server" SourceComp="Cheat" SourceFileName="Tom_x-server.sys" SourceFilePath="sys/DC" />
-    <CopyAsset DestFilePath="DCDrop" DestComp="home/x-server" SourceComp="Cheat" SourceFileName="D3F4ult_x-server.sys" SourceFilePath="sys/DC" />
-    <CopyAsset DestFilePath="DCDrop" DestComp="home/x-server" SourceComp="Cheat" SourceFileName="Coel_x-server.sys" SourceFilePath="sys/DC" />
+    <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Pitiedwzr_x-server.sys" SourceFilePath="sys/DC" />
+    <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="#PLAYERNAME#_x-server.sys" SourceFilePath="sys/DC" />
+    <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Pot_x-server.sys" SourceFilePath="sys/DC" />
+    <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Tom_x-server.sys" SourceFilePath="sys/DC" />
+    <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="D3F4ult_x-server.sys" SourceFilePath="sys/DC" />
+    <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Coel_x-server.sys" SourceFilePath="sys/DC" />
     <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="63.0">极有可能是这样的</AddIRCMessage>
     <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="66.0">@channel 所以我们接下来的任务就是调查Kaguya的去向</AddIRCMessage>
     <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="70.0">@Pot 你不需要跟他们一起调查</AddIRCMessage>

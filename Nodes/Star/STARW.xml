@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="STARW" name="Star 外部服务器" security="3" type="4" icon="DLCServer">
+<Computer id="STARW" name="Star 外部服务器" security="2" type="4" icon="DLCServer">
   <firewall level="6" solution="WDH3I1" additionalTime="0.2"/>
   <proxy time="1" />
   <trace time="60" />

@@ -1,20 +1,20 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="playerTracker" name="#PLAYERNAME# 追踪器" security="4" icon="chip"  allowsDefaultBootModule="false" type="1" >
+<Computer id="playerTracker" name="#PLAYERNAME# 追踪器" security="1" icon="chip"  allowsDefaultBootModule="true" type="1" >
 
 <adminPass pass="rhfgfuduuad" />
-<account username="#PLAYERNAME#" password="7945bguyqwnjdyu" type="ADMIN" />
+<account username="#PLAYERNAME#" password="79yjdyu" type="ADMIN" />
 
 <ports>21, 22, 25, 80</ports>
 
 <portsForCrack val="0" />
 
-<customthemefile path="sys" name="x-server.sys" themePath="Themes/ExampleTheme.xml"/>
+<customthemefile path="sys" name="x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
 
 <dlink target="Tracker" />
-  <LogoDaemon Name="Logo Display Test" ShowsTitle="true" TextColor="47, 212, 163, 200" LogoImagePath="">
-############
-#DISCONNECT#
-############
+  <LogoDaemon Name="Tracker Running..." ShowsTitle="true" TextColor="47, 212, 163, 200" LogoImagePath="Disconnect/Tracker.png">
+#########
+#TRACKER#
+#########
   </LogoDaemon>
 
 </Computer>

@@ -17,7 +17,7 @@
 
   <!-- Description that appears within Hacknet -->
   <Description> --- Disconnect ---
-IT IS DEBUG VERSION!</Description>
+Do your best to solve the mystery.</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction>

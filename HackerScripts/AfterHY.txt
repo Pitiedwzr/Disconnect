@@ -10,7 +10,7 @@ writel 呃，看起来不怎么样 $#%#$
 delay 2 $#%#$
 writel 你的X-SERVER.SYS被删了 $#%#$
 delay 2 $#%#$
-writel 好吧，事实上，你的电脑有一个追踪器,你可以scan到追踪器并从那上面下载x-server.exe $#%#$
+writel 好吧，事实上，你的电脑有一个追踪器,你可以scan到追踪器并从那上面下载x-server $#%#$
 delay 2 $#%#$
 writel 抱歉 $#%#$
 delay 2 $#%#$

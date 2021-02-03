@@ -1,18 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="DCNews" 
-          name="Disconnect 新闻服务器" 
-          ip="786.6.6.6"
-          security="4"
-          allowsDefaultBootModule="true"
-          icon="DLCServer" 
-          type="1" > 
-		  
-		  
-		  
-<adminPass pass="qscftgbhu" />
+<Computer id="DCNews" name="Disconnect 新闻服务器" ip="786.6.6.6" security="4" allowsDefaultBootModule="true" icon="DLCServer" type="1">
+
+
+
+  <adminPass pass="qscftgbhu" />
   <portsForCrack val="6" />
   <ports>22, 21, 6881, 443, 192</ports>
-  <variableMissionListingServer name="Disconnect 新闻服务器" iconPath="Logo.png" articleFolderPath="Disconnect/DCNews" color="46,49,124" assigner="false" public="true" title="Disconnect News"/>
+  <variableMissionListingServer name="Disconnect 新闻服务器" iconPath="Disconnect/Logo.png" articleFolderPath="Disconnect/DCNews" color="46,49,124" assigner="false" public="true" title="Disconnect News"/>
 
-  
+
 </Computer>

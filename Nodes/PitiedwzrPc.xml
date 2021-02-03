@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="PitiedwzrPc" name="Pitiedwzr 个人电脑" security="5" allowsDefaultBootModule="false" icon="dlcpc1" ip="85.833.214.54" type="empty">
+<Computer id="PitiedwzrPc" name="Pitiedwzr 个人电脑" security="6" allowsDefaultBootModule="false" icon="DLCPC2" ip="85.833.214.54" type="empty">
 
 
   <trace time="70" />
@@ -11,8 +11,8 @@
 
 
 
-  <customthemefile path="sys" name="x-server.sys" themePath="Themes/PitiedwzrTheme.xml"/>
-
+  <customthemefile path="sys" name="x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
+<customthemefile path="sys" name="Pitiedwzr_x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
 
 
 

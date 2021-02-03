@@ -42,7 +42,7 @@ Proxy1
 Proxy2
 Proxy3
 Proxy4
-</file>
+  </file>
   <file path="home" name="Corrupted_Firmware.dll">#PACEMAKER_FW_DANGER#</file>
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
@@ -82,23 +82,24 @@ Proxy4
   <file path="sys" name="LE-Theme.sys">#PURPLE_THEME#</file>
   <file path="sys" name="Mint-Theme.sys">#MINT_THEME#</file>
   <file path="home" name="Cheat.txt">
-  什么？
+什么？
   
   
-  你怎么到这里的？
+你怎么到这里的？
   
   
-  可能是你尝试着原版的IP在这里是否适用?
+可能是你尝试着原版的IP在这里是否适用?
   
   
-  或者....
+或者....
   
   
-  你只是一个肮脏的黑客而已吧
+你只是一个肮脏的黑客而已吧
   </file>
   <customthemefile path="sys" name="Coel_Theme.sys" themePath="Themes/CoelTheme.xml"/>
   <customthemefile path="sys" name="Miami_Light_Theme.sys" themePath="Themes/MiamiThemeLight.xml"/>
   <customthemefile path="sys" name="#PLAYERNAME#_Theme.sys" themePath="Themes/ExampleTheme.xml"/>
+  <customthemefile path="sys" name="Pitiedwzr_x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
   <customthemefile path="sys" name="Miami_Theme.sys" themePath="Themes/MiamiTheme.xml"/>
   <customthemefile path="sys" name="Riptide_Standard_Theme.sys" themePath="Themes/RiptideThemeStandard.xml"/>
   <customthemefile path="sys" name="Riptide_Theme.sys" themePath="Themes/RiptideTheme.xml"/>
@@ -124,5 +125,11 @@ Proxy4
   <customthemefile path="sys" name="Dino-White_Theme.sys" themePath="Themes/DinoTheme-White.xml"/>
   <customthemefile path="sys" name="Dino-Purple_Theme.sys" themePath="Themes/DinoTheme-Purple.xml"/>
 
+  <customthemefile path="sys/DC" name="Pot_x-server.sys" themePath="Themes/FloatVoidThemeStandard.xml"/>
+  <customthemefile path="sys/DC" name="D3F4ult.sys" themePath="Themes/AbstractBlurryTheme.xml"/>
+  <customthemefile path="sys/DC" name="Pitiedwzr_x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
+  <customthemefile path="sys/DC" name="#PLAYERNAME#_x-server.sys" themePath="Themes/ExampleTheme.xml"/>
+  <customthemefile path="sys/DC" name="Tom_x-server.sys" themePath="Themes/RainTheme.xml"/>
+  <customthemefile path="sys/DC" name="Coel_x-server.sys" themePath="Themes/CoelTheme.xml"/>
 
 </Computer>

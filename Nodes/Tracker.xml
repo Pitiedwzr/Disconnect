@@ -1,14 +1,17 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="Tracker" name="Disconnect追踪器" security="4" icon="chip"  allowsDefaultBootModule="false" type="1" >
+<Computer id="Tracker" name="Disconnect追踪器" security="4" icon="chip"  allowsDefaultBootModule="true" type="1" >
 
 
 <ports>21, 22, 25, 80</ports>
 
 <portsForCrack val="0" />
-
+  <LogoDaemon Name="Tracker Running..." ShowsTitle="true" TextColor="47, 212, 163, 200" LogoImagePath="Disconnect/TrackerCore.png">
+############
+#DISCONNECT#
+############
+  </LogoDaemon>
 <dlink target="D3F4ultTracker" />
 <dlink target="CoelTracker" />
-<dlink target="PotTracker" />
 <dlink target="TomTracker" />
 <dlink target="PlayerTracker" />
 </Computer>

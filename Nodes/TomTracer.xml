@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="TomTracker" name="Tom 追踪器" security="4" icon="chip"  allowsDefaultBootModule="false" type="1" >
+<Computer id="TomTracker" name="Tom 追踪器" security="4" icon="chip"  allowsDefaultBootModule="true" type="1" >
 
 
 <ports>21, 22, 25, 80</ports>
@@ -7,7 +7,11 @@
 <portsForCrack val="0" />
 
 <customthemefile path="sys" name="x-server.sys" themePath="Themes/RainTheme.xml"/>
-
+  <LogoDaemon Name="Tracker Running..." ShowsTitle="true" TextColor="47, 212, 163, 200" LogoImagePath="Disconnect/Tracker.png">
+#########
+#TRACKER#
+#########
+  </LogoDaemon>
 <dlink target="Tracker" />
 <dlink target="TomLaptop" />
 

@@ -7,7 +7,7 @@
           icon="DLCServer" 
           type="1" > 
 
-
+<LogoCustomConnectDisplayDaemon logo="Star/Terrorist/BlueDragon.png" title="Star/Terrorist/BlueDragon_title.png" overdrawLogo="true" buttonAlignment="right" />
   <portsForCrack val="0" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
 

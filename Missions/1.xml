@@ -19,10 +19,9 @@
     <sender>Pitiedwzr</sender>
     <subject>寻找根源</subject>
     <body>
-Pot的电脑出了点问题。他的电脑里现在有重要的东西，你要想办法修复电脑（如果可以，请不要删除其他文件），并找到源头,删除他的系统文件和工具。
+Pot的电脑出了点问题。她的电脑中了一种名叫Sasser的蠕虫病毒，你要想办法修复电脑（如果可以，请不要删除其他文件），并找到源头,删除他的系统文件和工具。
     </body>
     <attachments>
-      <!-- Add attachments like links and notes here -->
       <link comp="pot" />
     </attachments>
   </email>

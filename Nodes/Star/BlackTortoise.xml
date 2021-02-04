@@ -6,7 +6,7 @@
           allowsDefaultBootModule="false"
           icon="DLCServer" 
           type="1" > 
-
+<LogoCustomConnectDisplayDaemon logo="Star/Terrorist/BlackTortoise.png" title="Star/Terrorist/BlackTortoise_title.png" overdrawLogo="true" buttonAlignment="left" />
   <portsForCrack val="0" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
 

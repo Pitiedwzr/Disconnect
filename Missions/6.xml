@@ -5,15 +5,15 @@
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/DHSend/6END.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="Star-营救" reqs="DHSM6">
-    解救Tom
+  <posting title="" reqs="DHSM6">
+    
   </posting>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Pitiedwzr</sender>
-    <subject>营救</subject>
+    <subject></subject>
     <body>
 
     </body>

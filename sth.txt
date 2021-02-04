@@ -37,7 +37,34 @@ Simple
 786.8.8.8 </file>
 控制Opshell的节点，组合技应该挺好使
 
-12clock-never gonna give you (up)
+VMBootloaderTrap.dll
+
+ICACLS name [/grant[:r] Sid:perm[...]]
+    /grant[:r] Sid:perm 授予指定的用户访问权限。如果使用 :r，
+        这些权限将替换以前授予的所有显式权限。
+        如果不使用 :r，这些权限将添加到以前授予的
+        所有显式权限。
+    perm 是权限掩码，可以指定两种格式之一:
+        简单权限序列:
+                N - 无访问权限
+                F - 完全访问权限
+                M - 修改权限
+                RX - 读取和执行权限
+                R - 只读权限
+                W - 只写权限
+                D - 删除权限
+        icacls file /grant Administrator:(D,WDAC)
+        - 将授予用户对文件删除和写入 DAC 的管理员
+          权限。
+icacls VMBootloaderTrap.dll /grant Administrator:R
+
+灰鸽子
+G_Server.exe、G_Server.dll和G_Server_Hook.dll
+
+“冰河”
+kernel32.exe
+sysexplr.exe
+Regedit.bat
 
 难度选择
 ·Simple

@@ -6,7 +6,7 @@
   <missionEnd val="0">loadConditionalActions:Actions/DHSend/5END.xml</missionEnd>
   <nextMission>NONE</nextMission>
   <posting title="来自远方的杂音-#PLAYERNAME#" reqs="DHSM5">
-   安插监视器，为今后的任务做准备。
+   安插窃听器，为今后的任务做准备。
   </posting>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
@@ -15,11 +15,20 @@
     <sender>Pitiedwzr</sender>
     <subject>来自远方的杂音</subject>
     <body>
+#PLAYERNAME#，你的任务是在Star的IRC核心中安装窃听器
+我已经拿到了一个名叫“灰鸽子”的软件，它能让我们窃听到Star的内部活动。你只需要在那台服务器的sys文件夹中安装这个后门程序，剩下的部分我会完成。
 
+我已经把灰鸽子的服务端上传到了共享服务器的home/Detectagra文件夹下。整套服务端由三个文件组成，它们分别是G_Server.exe、G_Server.dll和G_Server_Hook.dll下载这些程序，想办法进入并把它们上传到sys文件夹，我来完成剩下的事情。你不需要启动它。
+切记要小心不要留下痕迹——Star的安保情况你并非不清楚。
+
+Good Luck
+-P
     </body>
     <attachments>
       <note title="笔记">
-
+从共享服务器中获取“灰鸽子”
+探索Star的服务器网络，不要留下任何痕迹
+渗透Star的IRC核心
       </note>
       <link comp="STARW" />
     </attachments>

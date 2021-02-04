@@ -19,7 +19,7 @@
   <trace time="95" />
   <admin type="none"/>
   
-
+<file path="home/VMTrap" name="VMTrapInfo.dec">#BINARY##BINARY##BINARY##BINARY#</file>
   <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
   <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>

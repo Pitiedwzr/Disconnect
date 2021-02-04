@@ -24,6 +24,10 @@
 	<AddMissionToHubServer MissionFilepath="Missions/2.xml" TargetComp="DCDHS" />
 	<AddMissionToHubServer MissionFilepath="Missions/Other/2.2.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
 	<AddMissionToHubServer MissionFilepath="Missions/Other/2.3.xml" TargetComp="DCDHS" AssignmentTag="Tom"/>
+  <DeleteFile TargetComp="DCDrop" FilePath="home/VMTrap" FileName="VMTrapInfo.dec" DelayHost="Cheat" Delay="1"/>
+  <AddAsset FileName="Booting.bat" FileContents="icacls VMBootloaderTrap.dll /grant Administrator:R" TargetComp="DCDrop" TargetFolderpath="home/VMTrap"/>
+  <AddAsset FileName="VMBootLoaderTrap.dll" FileContents="#BINARY##BINARY#" TargetComp="DCDrop" TargetFolderpath="home/VMTrap"/>
+  
   </Instantly>
 
 </ConditionalActions>

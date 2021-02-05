@@ -15,7 +15,110 @@
       </Images>
     </Memory>
   </memoryDumpFile>
+ <file path="home/DemoEND" name="CreditsData.txt"> 
+^恭喜您解锁了：Demo结局
+感谢您游玩DisconnectDemo！本Demo不代表最终品质！
+^  ----Disconnect----
 
+^作者：
+
+Pitiedwzr
+
+^剧情：
+
+Pitiedwzr
+AqurisindX
+
+^灵感：
+
+Kingsman:The Secret Service
+HITMAN6
+WORSE OR BEST
+Uplink
+
+^音乐：
+
+Hacknet OST
+Hacknet 迷宫 OST
+Kingsman:The Secret Service - Wave
+Frank Klepacki - 200 Meters
+Frank Klepacki - Blow it Up
+Frank Klepacki - Burn
+Frank Klepacki - c and c_in_the_house 
+Frank Klepacki - Calm Think
+Frank Klepacki - Credits
+Frank Klepacki - Destroy
+Frank Klepacki - Eagle Hunter
+Frank Klepacki - Fortification
+Frank Klepacki - Grinder
+Frank Klepacki - HM2
+Frank Klepacki - Industrofunk
+Frank Klepacki - jank
+Frank Klepacki - Militant Force 2
+Frank Klepacki - Motorized
+Frank Klepacki - Power
+Frank Klepacki - probing
+Frank Klepacki - ready_the_army
+Frank Klepacki - Tension
+Frank Klepacki - in Deep
+Speeder - Mental Omega - Chitzkalla
+World Beyond - Mental Omega - Serenity
+Black Ice 9 - Mental Omega - Viratia
+
+^图像：
+Hacknet + Labyrinths
+Bing聚焦
+IntroExtension
+阿里巴巴矢量图库
+
+^字体：
+微软雅黑
+华文行楷
+陈静的字
+微软正黑体
+LCD
+Days
+Papyrus Std
+Lindsey
+Ink Free
+FreshhandDB Normal
+Rockwell
+
+^测试者：
+Pitiedwzr
+Err0r233
+qingcheng
+QingMu
+3IMiner
+
+^特别感谢：
+AqurisindX
+X-Wind
+qingcheng
+Err0r233
+xiao_yong
+3IMiner
+我的所有朋友们
+
+以及...你..#PLAYERNAME#
+
+
+^Disconnect
+
+
+^BY Pitiedwzr
+
+
+  </file>
+<file path="home" name="Notes.txt">...哈？
+你怎么找到的我？
+等等，你是...#PLAYERNAME#？？
+肯定是Pitiedwzr让你来的吧，话说他弟弟还是那么毛躁吗？
+呃，你居然忘了...什么？你连我为什么知道你在想什么都忘了？？
+好吧...我会读心术...回到他弟弟的问题，也就是Tom，他最近怎么样？
+...！！已经死了吗！！
+我会尽快和Pitiedwzr联系的，我们DHS见。
+</file>
   <file path="bin/FastShell" name="info.txt">
 FastShell组合事实上是由OpShell和ComShell组成的
 
@@ -72,6 +175,7 @@ Proxy4
   <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
   <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
   <file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
+  <file path="bin" name="MessageViewer.exe">#NOTES_DUMPER_EXE#</file>
   <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
   <file path="bin" name="Clockv2.exe">#CLOCK_V2_EXE#</file>
   <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>

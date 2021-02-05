@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="AXGateway" name="AqurisindX 基地网关" security="5" allowsDefaultBootModule="false" type="4" >
+
+  <proxy time="4" />
+  <firewall level="10" solution="1ABGDF6F3S" additionalTime="1"/>
+  <portsForCrack val="999999" />
+  <ports>25, 192, 22, 21, 6881, 25</ports>
+  <trace time="100"/>
+
+
+</Computer>

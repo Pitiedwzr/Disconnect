@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BDE" name="青之东" security="5" type="4" icon="DLCServer">
+  <firewall level="9" solution="8HNJRBSE3" additionalTime="0.4"/>
+  <proxy time="0.5" />
+  <trace time="90" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 554, 80</ports>
+  <portRemap>22=153,443=157,80=8080</portRemap>
+<admin type="fast" resetPassword="true" isSuper="true"/>
+<Memory>
+    <Data>
+      <Block>
+日出之源即为东。
+金：84.191.211.120
+木：204.59.87.151
+水：66.119.34.133
+火：252.138.65.50
+土：71.134.228.85
+      </Block>
+    </Data>
+  </Memory>
+</Computer>

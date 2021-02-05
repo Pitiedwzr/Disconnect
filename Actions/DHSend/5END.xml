@@ -1,5 +1,61 @@
 <ConditionalActions>
   <Instantly>
-
+    <RunFunction FunctionName="playCustomSong:Music/FrankKlepackiinDeep.ogg" FunctionValue="1" />
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="5">好了，得益于你们的努力，我们终于能够获得更多有关的信息了。</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="6">/G_Server Start</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="8">*** 灰鸽子远控窃听启动中... ***</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="10">*** 目标服务器：163.47.81.239...LINK ONLINE! ***</AddIRCMessage>
+    <AddIRCMessage Author="G_HY" TargetComp="DCDHS" Delay="11">果然是代理的问题</AddIRCMessage>
+    <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="13">哈，看起来你们那边干得不错，我这边的炸弹也好了@Pitiedwzr</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="15">等等炸弹？？？？</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="17">@Coel 那是座尚未启用的基站，我们不可能在网络上摧毁它。</AddIRCMessage>
+    <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="19">@Pitiedwzr 所以下一步我该怎么办，这玩意连远程引爆器都没有。</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="21">这就是为什么我把便携式终端给你，你把反面的壳拿下来，它就是个远程引信了。</AddIRCMessage>
+    <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="23">bksn，你总能整出新花样</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="25">那么，我们在DHS等你的好消息。</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="27">所以说现在我们可以去窃听Star IRC了吧</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="30">是的。</AddIRCMessage>
+    <AddIRCMessage Author="G_Pot" TargetComp="DCDHS" Delay="32">哈？Tom邀请我到“塔”去见面，他知道我还活着？</AddIRCMessage>
+    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="34">果然...Pot是Star的特工</AddIRCMessage>
+    <AddIRCMessage Author="G_HY" TargetComp="DCDHS" Delay="36">听上去不错，老相好见面什么的，去一趟吧</AddIRCMessage>
+    <AddIRCMessage Author="G_Pot" TargetComp="DCDHS" Delay="37">你才老相好呢，要不是你上次那么干，我怎么可能去跟他好</AddIRCMessage>
+    <AddIRCMessage Author="G_HY" TargetComp="DCDHS" Delay="39">好了好了，你确定不带上防身的工具？</AddIRCMessage>
+    <AddIRCMessage Author="G_Pot" TargetComp="DCDHS" Delay="41">你想多了，我怎么可能不带，上次K送我的日本武士刀就不错，正好试试威力</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="43">！！！！该死！！！</AddIRCMessage>
+    <AddIRCMessage Author="G_HY" TargetComp="DCDHS" Delay="45">你终于想明白了，赶紧去解决这段感情，Disconnet少了一名大将，恐怕妨碍不了我们了。</AddIRCMessage>
+    <AddIRCMessage Author="G_Pot" TargetComp="DCDHS" Delay="47">行了，我到了，先不跟你聊了。</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="50">@Tom 你看到他们的对话了吗！！！快跑！！！</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="52">........没用了，以他的性子，早就把炸弹安好了。</AddIRCMessage>
+    <AddIRCMessage Author="G_Pot" TargetComp="DCDHS" Delay="54">呼，*决了，果然，武士刀永远**，那场面真****腥了，*地都**</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="56">......？窃听器怎么了？</AddIRCMessage>
+    <AddIRCMessage Author="G_Pot" TargetComp="DCDHS" Delay="58">所以还需要把这个“喜讯”告诉他们吗？</AddIRCMessage>
+    <AddIRCMessage Author="G_HY" TargetComp="DCDHS" Delay="60">你说那些窃听狂？不用了，我们的对话他们一直都在听哦，对不对呀，Disconnect的朋友们~</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="62">！不好！！</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="64">/G_Server shutdown</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="65">*** 错误！反弹链接失效！***</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="66">什么....</AddIRCMessage>
+    <AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="68">现在，ROOTKIT已经会自我隐蔽了，真是想不到啊~</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="70">....你以为我没有引信就不能启动炸弹了吗</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="72">@Tom /Tracker Bomb Activated</AddIRCMessage>
+    <AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="74">...什么...</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="75">*** 警告：炸弹已启动！ ***</AddIRCMessage>
+    <AddIRCMessage Author="G_Pot" TargetComp="DCDHS" Delay="76">@HY 什么东西在响啊，你把“塔”启动了？</AddIRCMessage>
+    <AddIRCMessage Author="G_HY" TargetComp="DCDHS" Delay="78">不！快逃！！那是炸弹！！！</AddIRCMessage>
+    <AddIRCMessage Author="G_ROOTKITAI" TargetComp="DCDHS" Delay="80">==== 特工Pot失去生命体征！！！ ====</AddIRCMessage>
+    <AddIRCMessage Author="G_ROOTKITAI" TargetComp="DCDHS" Delay="82">==== RKAI与“塔”失去连接！！！ ====</AddIRCMessage>
+    <AddIRCMessage Author="G_ROOTKITAI" TargetComp="DCDHS" Delay="84">==== AER系统判断：人工介入 ====</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="86">哈哈哈哈......这种绝望感，你终于也体会到了吧！</AddIRCMessage>
+    <AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="88">...哈哈..你想多了，Pot怎么样跟我有什么关系呢~</AddIRCMessage>
+    <AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="90">不过，他和你的关系......</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="90.5">住嘴！</AddIRCMessage>
+    <AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="92">想见不到我么？这个容易~</AddIRCMessage>
+    <AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="94">@ROOTKIT AI 启动</AddIRCMessage>
+    <AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="96">拜拜啦~</AddIRCMessage>
+    <LaunchHackScript Filepath="HackerScripts/ROOTKITAIHack.txt" DelayHost="EDI" Delay="96.1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false"/>
+    <CrashComputer TargetComp="DCDHS" CrashSource="Cheat" DelayHost="Cheat" Delay="96.1"/>
+   <AddConditionalActions Filepath="Actions/AfterRKAI.xml" DelayHost="EDI" Delay="97"/>
+      
+    </Action>
   </Instantly>
+  
 </ConditionalActions>

@@ -1,0 +1,37 @@
+<ConditionalActions>
+<OnConnect target="playerComp" needsMissionComplete="false">
+    <SetLock DelayHost="Cheat" Delay="1" Module="terminal" IsLocked="true" IsHidden="false"/>
+    <LaunchHackScript Filepath="HackerScripts/AfterROOTKIT.txt" DelayHost="EDI" Delay="1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="playerTracker" SourceFileName="bootcfg.dll" SourceFilePath="sys"/>
+    <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="playerTracker" SourceFileName="os-config.sys" SourceFilePath="sys"/>
+    <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="playerTracker" SourceFileName="netcfgx.dll" SourceFilePath="sys"/>
+    <SetLock DelayHost="Cheat" Delay="18" Module="terminal" IsLocked="false" IsHidden="false"/>
+
+  </OnConnect>
+  <OnConnect target="DCDHS" needsMissionComplete="false">
+    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="2">幸好有自动修复...我以为又要换网关了._.</AddIRCMessage>
+    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="4">真怀疑我的工作站能不能活过ROOTKIT...</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="6">所以@Pitiedwzr 呢？</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="8">我没事...我只是在想我们的人手确实有点少...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="10">感觉回到了几年前...</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="12">所以我觉得我们应该去招些人了...</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="14">@D3F4ult 你可以随便找一位优秀的特工，@Coel @#PLAYERNAME# 你们要找的人我已经写在任务里了。</AddIRCMessage>
+    <AddMissionToHubServer MissionFilepath="Missions/6.xml" TargetComp="DCDHS" />
+    <AddMissionToHubServer MissionFilepath="Missions/other/6.2.xml" TargetComp="DCDHS" AssignmentTag="D3F4ult"/>
+    <AddMissionToHubServer MissionFilepath="Missions/other/6.3.xml" TargetComp="DCDHS" AssignmentTag="Coel"/>
+  </OnConnect>
+  <OnConnect target="AXGateway" needsMissionComplete="false">
+  <LaunchHackScript Filepath="HackerScripts/Message.txt" DelayHost="EDI" Delay="1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  <CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="Cheat" SourceFileName="MessageViewer.exe" SourceFilePath="bin"/>
+    <DeleteFile TargetComp="playerComp" FilePath="home" FileName="Notes.txt" DelayHost="Cheat" Delay="1"/>
+    <CopyAsset DestFilePath="home" DestComp="playerComp" SourceComp="Cheat" SourceFileName="Notes.txt" SourceFilePath="home"/>
+    <RunFunction FunctionName="addFlags:FindAX" FunctionValue="0" DelayHost="Cheat" Delay="1"/>
+  </OnConnect>
+
+
+  <OnDisconnect target="AXGateway">
+    <DeleteFile TargetComp="playerComp" FilePath="home" FileName="Notes.txt" DelayHost="Cheat" Delay="1"/>
+    <DeleteFile TargetComp="playerComp" FilePath="bin" FileName="MessageViewer.exe" DelayHost="Cheat" Delay="1"/>
+  </OnDisconnect>
+
+</ConditionalActions>

@@ -1,0 +1,22 @@
+config [TARGET_COMP] [SOURCE_COMP] 2 $#%#$
+delay 2 $#%#$
+writel ====Disconnect Tracker Running...==== $#%#$
+delay 2 $#%#$
+writel 自动修复系统启动中... $#%#$
+delay 2 $#%#$
+writel 诊断中... $#%#$
+delay 2 $#%#$
+writel 分析：os-config.sys、bootcfg.dll、netcfgx.dll不存在 $#%#$
+delay 2 $#%#$
+writel 修复中... $#%#$
+delay 2 $#%#$
+writel 修复完成！ $#%#$
+delay 2 $#%#$
+writel 重启中... $#%#$
+delay 2 $#%#$
+writel 重启失败：无管理员权限 $#%#$
+delay 2 $#%#$
+writel 请手动重启 $#%#$
+delay 2 $#%#$
+writel ============================== $#%#$
+

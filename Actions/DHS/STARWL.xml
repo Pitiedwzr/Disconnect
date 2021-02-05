@@ -1,0 +1,22 @@
+<ConditionalActions>
+ 
+ <OnAdminGained target="STARNC" >
+    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="10.0">@channel 我又被白名单服务器卡住了...</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="12.0">我也...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="14.0">我也是</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="16.0">呃，这个白名单的安全系统也太复杂了...看来我们要采用物理手段了</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="18.0">@Tom 你快到基站附近了对吧</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="20.0">对</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="22.0">我已经在你的便携式终端上标注了目标机房的位置，但那附近有几个警卫，你要小心...</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="23.0">OK，警卫已经“晕倒了”</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="26.0">...不愧是你</AddIRCMessage>
+	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="28.0">这个晕倒是指醒不来的那种吧...</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="30.0">Hmmmm也许？</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="32.0">...先谈正事吧，@Tom 现在，进入机房，找到标号为SCHISSCO_WHITELIST的服务器</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="34.0">嗯，然后呢？对着它开两枪吗？</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="36.0">...你就把它拔出来就行了，不要用*那个东西*，那是摧毁基站用的</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="41.0">好了，@#PLAYERNAME#@Coel@D3F4ult 你们应该可以进入内部网络了，毕竟白名单已经物理离线了，不用谢。</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="43.0">Tom一直都这么硬核的吗...</AddIRCMessage>
+	<DeleteFile TargetComp="STARWL" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="DCDHS" Delay="38.0"/>
+  </OnAdminGained>
+</ConditionalActions>

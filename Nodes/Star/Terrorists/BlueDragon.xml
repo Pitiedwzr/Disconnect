@@ -4,11 +4,14 @@
           ip="597.334.159.6"
           security="5"
           allowsDefaultBootModule="false"
-          icon="DLCServer" 
-          type="1" > 
-
+          icon="Alchemist" 
+          type="empty" > 
+<admin type="fast" resetPassword="true" isSuper="true"/>
 <LogoCustomConnectDisplayDaemon logo="Star/Terrorist/BlueDragon.png" title="Star/Terrorist/BlueDragon_title.png" overdrawLogo="true" buttonAlignment="right" />
-  <portsForCrack val="0" />
+  <portsForCrack val="9" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
-
+<dlink target="BDE" />
+<dlink target="BDN" />
+<dlink target="BDS" />
+<dlink target="BDW" />
 </Computer>

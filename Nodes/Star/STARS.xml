@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="STARS" name="Star 交换机" ip="251.422.53.66" security="5" type="4" icon="chip">
+  <firewall level="7" solution="89HX3JK" additionalTime="0.4"/>
+  <proxy time="0.5" />
+  <trace time="80" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 554, 211, 80</ports>
+  <portRemap>22=153,211=957,443=157,80=8080</portRemap>
+<admin type="fast" resetPassword="true" isSuper="true"/>
+<dlink target="STAREOS" />
+<dlink target="STARM" />
+<dlink target="STARNC" />
+</Computer>

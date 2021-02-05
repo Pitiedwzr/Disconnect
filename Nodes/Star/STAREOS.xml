@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="STAREOS" name="Star eOS设备总控" security="6" type="4" icon="tablet">
+  <firewall level="8" solution="87ZIKO72" additionalTime="0.2"/>
+  <proxy time="0.3" />
+  <trace time="70" />
+  <portsForCrack val="5" />
+  <ports>21, 22, 25, 443, 554, 3659, 211</ports>
+  <portRemap>21=8080,22=486,211=612,443=8642</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+    <eosDevice name="James's ePhone IXS Pro Max" id="STAREP" icon="ePhone2" empty="true" passOverride="alpine">
+    <note>To do list
+检查交换机的日志
+配置网络中心的白名单
+</note>
+    <mail username="James@star.com" pass="7I732J8S84E" />
+  </eosDevice>
+  <file path="home" name="Readme.md">
+这是一个定制的Schiss-Co设备。正如它本身那样，没有可用的标准文档。如需指导和其他信息，请查看您的Schiss-Co代表提供的设置活页。
+
+用户注意事项如下：
+这是公司的eOS总控服务器，任何进入内网的eos设备都应连接此设备进行身份认证！！！
+</file>
+</Computer>

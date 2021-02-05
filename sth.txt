@@ -66,6 +66,12 @@ kernel32.exe
 sysexplr.exe
 Regedit.bat
 
+  <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
+  <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="ProactiveFocusStorageExtender.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="QualityVectorStreamliner.dll">#BINARY#</fi
+
 难度选择
 ·Simple
 ·Difficult

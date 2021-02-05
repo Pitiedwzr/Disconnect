@@ -1,12 +1,35 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="STARW" name="Star 外部服务器" security="2" type="4" icon="DLCServer">
+<Computer id="STARW" name="Star 外部服务器" security="3" type="4" icon="DLCServer">
   <firewall level="6" solution="WDH3I1" additionalTime="0.2"/>
   <proxy time="1" />
   <trace time="60" />
   <portsForCrack val="4" />
   <ports>22, 25, 443, 554, 211</ports>
-  <portRemap>22=331,211=648,443=226</portRemap>
+  <portRemap>22=331,211=648,443=296</portRemap>
   <admin type="progress"/>
+  <file path="home" name="!!!WARNING!!!.txt">
+ 这个服务器是唯一一个安全的外部服务器了，任何从外部连接到内网的流量都应先连接交换机，因此交换机对我们来说十分重要，这个服务器上不应该存有任何有关交换机的内容（包括log！！！）之前的日志我已经删掉了，不要让我再提醒你们。
+ -J
+  </file>
+  <Memory>
+    <Commands>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+    </Commands>
+    <Data>
+      <Block>
+ - 不要保存本文档 -
+ 
+动态交换机IP：
 
-  <dlink target="STARNC" />
+251.422.53.66
+ 
+交换机的IP会循环变化，频率约为5天1次。
+注意：本文档应在服务器机房的显示屏上保持打开该状态，以记录IP，而不要*写在其他任何地方*
+
+切勿保存本文档！那将导致更多不必要的安全风险。
+如果IP不正确，请联系Schiss-Co创新实验室。
+      </Block>
+    </Data>
+  </Memory>
 </Computer>

@@ -4,10 +4,11 @@
           ip="986.635.167.173"
           security="5"
           allowsDefaultBootModule="false"
-          icon="DLCServer" 
-          type="1" > 
+          icon="Alchemist" 
+          type="empty" > 
+          <admin type="fast" resetPassword="true" isSuper="true"/>
 <LogoCustomConnectDisplayDaemon logo="Star/Terrorist/Linnet.png" title="Star/Terrorist/Linnet_title.png" overdrawLogo="true" buttonAlignment="left" />
-  <portsForCrack val="0" />
+  <portsForCrack val="9" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
 
 

@@ -1,5 +1,12 @@
 <ConditionalActions>
   <Instantly>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="2">==== Disconnect Demo 完 ====</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3">感谢您游玩Disconnect DEMO！</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="5">!ATTACHMENT:link#%#Disconnect DEMO Credit#%#985.83.3.214</AddIRCMessage>
+    <DeleteFile TargetComp="Credit" FilePath="home" FileName="CreditsData.txt" DelayHost="Cheat" Delay="1"/>
 
   </Instantly>
+  <OnConnect target="Credit">
+        <CopyAsset DestFilePath="home" DestComp="Credit" SourceComp="Cheat" SourceFileName="CreditsData.txt" SourceFilePath="home/DemoEND"/>
+  </OnConnect>
 </ConditionalActions>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="STARWL" 
+          name="Star 白名单验证器" 
+          security="8"
+          allowsDefaultBootModule="true"
+          icon="DLCServer" 
+          type="empty" > 
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 6881, 554, 80</ports>
+  <trace time="70" />
+  <portRemap>21=8800,22=2104,6881=6882,80=8080</portRemap>
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true" /> 
+</Computer>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="STARIRCTRUE" 
+          name="Star 内部IRC" 
+          ip="163.47.81.239"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="dlcpc2" 
+          type="1" > 
+  <trace time="150" />
+  <firewall level="8" solution="4FJ8WX4G" additionalTime="0.5"/>
+  <portsForCrack val="9" />
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 554, 9418</ports>
+    <IRCDaemon themeColor="0,0,255" name="Star 内部IRC" needsLogin="true">
+    <user name="James" color="255,50,215"/>
+    <user name="HY" color="43,162,82"/>
+    <user name="ROOTKIT AI" color="252,138,65"/>
+	<post user="ROOTKIT AI">==== 检测到非法链接 ====</post>
+  <post user="ROOTKIT AI">==== 聊天记录已清理 ====</post>
+  <post user="James">lol，你机器人又抽风了@HY</post>
+  <post user="HY">可能是开了代理？禁用代理@ROOTKIT AI</post>
+  <post user="ROOTKIT AI">==== 代理已禁用 ====</post>
+
+  </IRCDaemon>
+
+
+  
+</Computer>

@@ -1,0 +1,49 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+writel ###ROOTKIT### $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+delay 4 $#%#$
+writel ROOTKIT Starting... $#%#$
+delay 4 $#%#$
+writel FORKBOMB Starting... $#%#$
+delay 4 $#%#$
+writel ALL CLEAR! $#%#$
+delay 4 $#%#$
+delete /sys bootcfg.dll $#%#$
+delete /sys os-config.sys $#%#$
+delete /sys netcfgx.dll $#%#$
+delay 0.12 $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+showRam $#%#$
+showNetMap $#%#$
+reboot -i $#%#$
+disconnect $#%#$

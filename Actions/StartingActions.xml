@@ -4,5 +4,6 @@
     <RunFunction FunctionName="addFlags:SimpleMode"/>
     <AddConditionalActions Filepath="Actions/LevelChoose/Hard.xml" DelayHost="Cheat" Delay="1"/>
   </Instantly>
+  
 
 </ConditionalActions>

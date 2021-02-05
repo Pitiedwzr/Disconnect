@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="DHSM6.3" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+
+  </goals>
+  <missionEnd val="0">loadConditionalActions:Actions/DHSend/6END.xml</missionEnd> 
+  <nextMission>NONE</nextMission>
+  <posting title="Find Agent - Coel" reqs="DHSM6" >
+寻找一位优秀的特工
+  </posting>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Pitiedwzr</sender>
+    <subject>Peter</subject>
+    <body>
+	
+</body>
+    <attachments>
+      <note title="笔记">
+	
+	  </note>
+	  <link comp="" />
+    </attachments>
+  </email>
+</mission>

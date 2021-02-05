@@ -2,12 +2,46 @@
 <Computer id="STARTerrorists" name="Star Terrorists中心" security="5" type="4" icon="DLCServer">
   <firewall level="6" solution="G67S8U" additionalTime="0.3"/>
   <proxy time="2" />
-  <trace time="75" />
-  <portsForCrack val="5" />
-  <ports>22, 21, 25, 443, 554, 211</ports>
-  <portRemap>25=8471,554=657</portRemap>
-  <dlink target="STARB" />
+  <trace time="100" />
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  <portsForCrack val="6" />
+  <ports>22, 21, 25, 443, 554, 6881</ports>
+  <portRemap>25=8471,554=657,22=340,6881=3550</portRemap>
+  <dlink target="STARBT" />
   <dlink target="STARBD" />
   <dlink target="STARL" />
   <dlink target="STARWT" />
+  <file path="home" name="Terrorists1.txt">
+四兽融五行、四位，以不同颜色代表：
+东方青色即为木，西方白色即为金，南方赤色即为火，北方黑色即为水，中央黄色即为土。
+  </file>
+    <encryptedFile path="home" name="Terrorists2.dec" extension=".txt" ip="UNKNOWN" header="UNKNOWN">
+IRC:#8CD4D2色
+    春分秋分之日 太阳升起之源
+    
+
+===========================================================================================
+
+      ___________    ________      ___              _________
+     /   _______/   /___ ___/     /  /             /  ______/
+   	/   /              / /       /  /             /  /____
+   /   /______        / /       /  /             /  _____/
+  /   _______/       / /       /  /             /  /
+ /   /          ____/ /____   /  /_________    /  /_______ 
+/___/          /__________/  /____________/   /__________/
+
+      _________       _________         _________       _________          _________
+     /  ______/      /  ______ \       /  ______ \     / _______ \        /  ______ \
+    /  /____        /  /     / |      /  /     / |    / |       | \      /  /     / |
+   /  _____/       /  /_____/  /     /  /_____/  /    | |       | |     /  /_____/  /
+  /  /            /  ____   __/     /  ____   __/     | |       | |    /  ____   __/
+ /  /_______     /  /    \  \      /  /    \  \       \ |_______| /   /  /    \  \
+/__________/    /__/      \__\    /__/      \__\       \_________/   /__/      \__\
+
+===========================================================================================
+
+
+
+  </encryptedFile>
+    <WhitelistAuthenticatorDaemon Remote="STARWL" />
 </Computer>

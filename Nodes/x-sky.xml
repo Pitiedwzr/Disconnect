@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="x-sky" 
-          name="X-SKY 电脑" 
+          name="X-SKY 个人电脑" 
           security="4"
           allowsDefaultBootModule="false"
           icon="DLCPC1" 

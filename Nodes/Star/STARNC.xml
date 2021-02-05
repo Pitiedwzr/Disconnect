@@ -1,20 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="STARNC" name="Star 网络中心" security="5" type="4" icon="DLCServer">
- 
-
-
-
-
-  <firewall level="8" solution="2JK5ANI9" additionalTime="0.4"/>
+<Computer id="STARNC" name="Star 网络中心" security="7" type="4" icon="DLCServer">
   <proxy time="3" />
   <trace time="80" />
   <portsForCrack val="6" />
   <ports>22, 21, 25, 443, 554, 211</ports>
   <portRemap>21=42,554=128</portRemap>
-  <admin type="progress"/>
-  
-  <dlink target="STARW" />
-  <dlink target="STARWL" />
-  <dlink target="EACHBACKUP" />
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  <adminPass pass="6N34T3T3C" />
+
+  <dlink target="STARS" />
   <dlink target="STARTerrorists" />
 </Computer>

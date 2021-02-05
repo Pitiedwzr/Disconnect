@@ -1,27 +1,26 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="DHSM6" activeCheck="false" shouldIgnoreSenderVerification="false">
   <goals>
-
+<goal type="hasflag" target="FindAX"/>
   </goals>
   <missionEnd val="0">loadConditionalActions:Actions/DHSend/6END.xml</missionEnd>
   <nextMission>NONE</nextMission>
-  <posting title="" reqs="DHSM6">
-    
+  <posting title="Find Agent - #PLAYERNAME#" reqs="DHSM6">
+寻找一位优秀特工
   </posting>
   <!-- 
   <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
   -->
   <email>
     <sender>Pitiedwzr</sender>
-    <subject></subject>
+    <subject>Find AqurisindX</subject>
     <body>
-
+如你所见，我们的人手确实有些少，因此，我需要你帮我找到一位优秀的特工。
+你要找到的目标是AqurisindX，他曾与我们合作过，记得吗？
+我现在无法联络他，所以请你和他说明情况后回复我。我们在聊天室中细谈。
     </body>
     <attachments>
-      <note title="笔记">
-
-      </note>
-      <link comp="" />
+      <link comp="AXProxy" />
     </attachments>
   </email>
 </mission>

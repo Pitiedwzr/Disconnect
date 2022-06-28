@@ -1,0 +1,43 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+writel ###ROOTKIT### $#%#$
+hideRam $#%#$
+delay 4 $#%#$
+writel ROOTKIT Starting... $#%#$
+delay 4 $#%#$
+writel FORKBOMB Starting... $#%#$
+delay 4 $#%#$
+writel ALL CLEAR! $#%#$
+delay 4 $#%#$
+hideTerminal $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+reboot -i $#%#$
+disconnect $#%#$

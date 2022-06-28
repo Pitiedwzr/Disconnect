@@ -1,0 +1,26 @@
+<CustomTheme>
+  <themeLayoutName>greencompact</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Starfield - Pink.png</backgroundImagePath>
+
+  <defaultHighlightColor>0,175,145</defaultHighlightColor>
+  <defaultTopBarColor>6,6,6,80</defaultTopBarColor> <!--105,62,102-->
+  <warningColor>235,94,11</warningColor>
+
+  <shellColor>35,194,191</shellColor>
+  <shellButtonColor>105,167,188</shellButtonColor>
+
+  <moduleColorSolidDefault>34,169,214</moduleColorSolidDefault>
+  <moduleColorStrong>13,95,112</moduleColorStrong>
+  <moduleColorBacking>6,6,6,160</moduleColorBacking>
+
+  <thisComputerNode>21,62,144</thisComputerNode>
+
+  <exeModuleTopBar>32,182,232,80</exeModuleTopBar>
+  <exeModuleTitleText>10,10,10,200</exeModuleTitleText>
+
+  <lockedColor>236,70,70,200</lockedColor>
+  <brightLockedColor>102,63,63</brightLockedColor>
+  <brightUnlockedColor>81,194,213</brightUnlockedColor>
+  <unlockedColor>85,179,177</unlockedColor>
+
+</CustomTheme>

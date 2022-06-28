@@ -1,0 +1,8 @@
+<ConditionalActions>
+<Instantly>
+    <CancelScreenBleedEffect DelayHost="Cheat" Delay="0"/>
+    <KillExe DelayHost="Cheat" Delay="1" ExeName="sequencer" />
+    <SwitchToTheme ThemePathOrName="Themes/MiamiThemeLightBlue.xml" FlickerInDuration="1" DelayHost="Cheat" Delay="255" />
+</Instantly>
+ 
+</ConditionalActions>

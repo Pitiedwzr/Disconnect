@@ -1,7 +1,7 @@
 <ConditionalActions>
   
   <Instantly>
- 	<RunFunction FunctionName="playCustomSong:Music/Speeder-Serenity-Mental Omega.ogg" />
+ 	<RunFunction FunctionName="playCustomSong:Music/Serenity - World Beyond.ogg" />
   </Instantly>
 
 </ConditionalActions>

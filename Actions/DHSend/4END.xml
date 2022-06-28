@@ -1,7 +1,7 @@
 <ConditionalActions>
   <Instantly>
    <CopyAsset DestFilePath="home" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Star.png" SourceFilePath="home" />
-   <RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-200 Meters.ogg" FunctionValue="1" />
+   <RunFunction FunctionName="playCustomSong:Music/Echo-Black Ice 9.ogg" FunctionValue="1" />
    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="8">...看起来是个加密文件...还是有密码的</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="11">@D3F4ult 能不能解密？</AddIRCMessage>
    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="14">应该可以...给我一点时间...</AddIRCMessage>
@@ -11,7 +11,7 @@
    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="25">*** 用户 D3F4ult 上传了文件 ***</AddIRCMessage>
    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="27">是个png文件？</AddIRCMessage>
    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="30">我这查看不了...</AddIRCMessage>
-   <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="32">@#PLAYERNAME# 用MemForensics查看</AddIRCMessage>
+   <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="32">@#PLAYERNAME# 或许你可以试试用MemForensics查看</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="35">看起来是个关于Star的关系图</AddIRCMessage>
    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="37">想不到TPH和ED居然与Star合作...</AddIRCMessage>
    <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="39">PacificAir和Psylance是最清白的了...</AddIRCMessage>
@@ -25,13 +25,15 @@
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="56">...你真的是认真思考过而不是一时冲动吗</AddIRCMessage>
    <AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="60">......我想好了，无论如何我也要去见她，或许她有什么难言之隐...</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="62">...好吧，事实上，我的线人还发现了一座类似基站的设备，恐怕...功能要比基站能做的要多，它的作者..又是Pot</AddIRCMessage>
-   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="64">请务必摧毁那座基站，考虑到其体积，我拿来了一些*有趣的东西*，具体任务目标我写在了任务里。</AddIRCMessage>
+   <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="64">请务必摧毁那座基站，考虑到其体积，我“借”了一些东西，具体任务目标我写在了任务里。</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="65">而其他人的任务则是在Star内部安插监听器，为以后的任务做准备</AddIRCMessage>
    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="67">@channel 做好发生任何情况的准备，因为现在，我们已经没有回头路了......</AddIRCMessage>
-   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="69">呃，顺便一说，Peter给我发来了一些*新玩具*</AddIRCMessage>
-   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="70">这些东西看起来可以省去我们在破解代理上的不少麻烦，具体的Peter已经上传到一个服务器上了</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="69">呃，Peter给我发来了一些*新玩具*</AddIRCMessage>
+   <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="70">这些东西看起来可以省去我们在破解代理上的不少麻烦，具体内容的Peter已经上传到一个服务器上了，而且他说顺便送我们一份礼物，我已经上传到共享服务器了。</AddIRCMessage>
    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="71">!ATTACHMENT:link#%#FastShell Core#%#412.26.39.343</AddIRCMessage>
    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="72">!ATTACHMENT:account#%#FastShell Core#%#412.26.39.343#%#admin#%#FSC-412526399</AddIRCMessage>
+   <AddAsset FileName="Tracekill.exe" FileContents="#TRACEKILL_EXE#" TargetComp="DCDrop" TargetFolderpath="bin"/>
+   <AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="DCDrop" TargetFolderpath="bin"/>
    <CopyAsset DestFilePath="bin/FastShell" DestComp="FSC" SourceComp="Cheat" SourceFileName="OpShell.exe" SourceFilePath="bin" />
    <CopyAsset DestFilePath="bin/FastShell" DestComp="FSC" SourceComp="Cheat" SourceFileName="ComShell.exe" SourceFilePath="bin" />
    <CopyAsset DestFilePath="bin/FastShell" DestComp="FSC" SourceComp="Cheat" SourceFileName="info.txt" SourceFilePath="bin/FastShell" />

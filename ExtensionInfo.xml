@@ -40,16 +40,14 @@ IT IS DEBUG VERSION!</Description>
   
   To Play your own songs, use the path to that song in your extension.
   For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
-  <IntroStartupSong>Music/Frank Klepacki-jank.ogg</IntroStartupSong>
+  <IntroStartupSong>Music/Frank Klepacki-Construct.ogg</IntroStartupSong>
 
-  <!-- Sequencer stuff. You won't need this till later.-->
-  <!--
-  <SequencerTargetID>advExamplePC</SequencerTargetID>
-  <SequencerSpinUpTime>10.5</SequencerSpinUpTime>
-  <SequencerFlagRequiredForStart>testFlag</SequencerFlagRequiredForStart>
-  <ActionsToRunOnSequencerStart>Actions/ThemeSwapActions.xml</ActionsToRunOnSequencerStart>
-  -->
-  
+
+  <SequencerTargetID>Cheat</SequencerTargetID>
+  <SequencerSpinUpTime>10</SequencerSpinUpTime>
+  <SequencerFlagRequiredForStart>SequencerStart</SequencerFlagRequiredForStart>
+  <ActionsToRunOnSequencerStart>Actions/SequencerActions.xml</ActionsToRunOnSequencerStart>
+
   <!-- Steam workshop fields -->
   <!-- 
   public string WorkshopDescription;

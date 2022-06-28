@@ -1,19 +1,19 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="STARM" name="Star 内部邮箱" security="6" type="4">
+<Computer id="STARM" name="Star 内部邮箱" security="2" type="4">
   <proxy time="4" />
   <trace time="75" />
   <portsForCrack val="6" />
   <ports>22, 25, 443, 1433, 192, 211</ports>
   <portRemap>22=340</portRemap>
-  <admin type="progress"/>
-  <account username="James" pass="7I732J8S84E" type="2" />
+  <adminPass pass="45t3y790" />
+  <account username="James" password="7I732J8S84E" type="MAIL" />
   <mailServer name="Star Mail" color="254,126,38">
-    <email recipient="James" sender="Star Robot Admin" subject="弱密码提醒">
+<email recipient="James" sender="Star Robot Admin" subject="弱密码提醒">
 AI监测到您的邮箱密码与您设置的网络中心的密码过于相似，已将网络中心的密码改为：
-6N34T3T3C
-请在阅读后立刻删除本邮件
+6N34T3T3C。
+请在阅读后立刻删除本邮件。
 
-你已经被警告过了
-    </email>
+你已经被警告过了。
+</email>
   </mailServer>
 </Computer>

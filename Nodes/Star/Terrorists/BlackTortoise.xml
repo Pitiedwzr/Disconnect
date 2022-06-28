@@ -8,7 +8,7 @@
           type="empty" > 
           <admin type="fast" resetPassword="true" isSuper="true"/>
 <LogoCustomConnectDisplayDaemon logo="Star/Terrorist/BlackTortoise.png" title="Star/Terrorist/BlackTortoise_title.png" overdrawLogo="true" buttonAlignment="left" />
-  <portsForCrack val="9" />
+  <portsForCrack val="99999" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
 
  

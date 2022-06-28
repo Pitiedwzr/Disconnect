@@ -40,7 +40,7 @@ Do your best to solve the mystery.</Description>
   
   To Play your own songs, use the path to that song in your extension.
   For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
-  <IntroStartupSong>Music/Frank Klepacki-jank.ogg</IntroStartupSong>
+  <IntroStartupSong>Music/Frank Klepacki-Construct.ogg</IntroStartupSong>
 
   <!-- Sequencer stuff. You won't need this till later.-->
   <!--

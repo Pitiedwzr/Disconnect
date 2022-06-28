@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+ 	<RunFunction FunctionName="playCustomSong:Music/Chaotic Impulse-Black Ice 9.ogg" />
+  </Instantly>
+
+</ConditionalActions>

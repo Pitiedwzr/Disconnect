@@ -8,6 +8,19 @@
 
   <FastActionHost/>
   <addWebServer name="404 - Page Not Found" url="web\404Page.html" />
+  <file path="home" name="Language.txt">
+  语言测试
+  語言測試
+  Language Testing
+  Prüfung der Sprache
+  тест языка
+  Tests linguistiques
+  Pruebas de idiomas
+  언어 테스트
+  言語テスト
+  Taaltesten
+  Dil Testi
+  </file>
   <memoryDumpFile name="Star.png" path="home">
     <Memory>
       <Images>
@@ -15,6 +28,81 @@
       </Images>
     </Memory>
   </memoryDumpFile>
+  <file path="home/BADEND" name="CreditsData.txt"> 
+^恭喜您解锁了：失败结局
+世界终被毁灭，唯有空洞尚存。
+^  ----Disconnect----
+
+^作者：
+
+Pitiedwzr
+
+^剧情：
+
+Pitiedwzr
+AqurisindX
+
+^灵感：
+
+Kingsman:The Secret Service
+HITMAN6
+WORSE OR BEST
+Uplink
+
+^音乐：
+
+Hacknet OST
+Hacknet 迷宫 OST
+Red Alert 2 OST
+Red Alert 2 : Yuri's Revenge OST
+Red Alert 2 : Mental Omega OST
+Speeder - Mental Omega - Chitzkalla
+World Beyond - Mental Omega - Serenity
+Black Ice 9 - Mental Omega - Viratia
+
+^图像：
+Hacknet + Labyrinths
+Bing聚焦
+IntroExtension
+阿里巴巴矢量图库
+
+^字体：
+微软雅黑
+华文行楷
+陈静的字
+微软正黑体
+LCD
+Days
+Papyrus Std
+Lindsey
+Ink Free
+FreshhandDB Normal
+Rockwell
+
+^测试者：
+Pitiedwzr
+Err0r233
+qingcheng
+QingMu
+3IMiner
+
+^特别感谢：
+AqurisindX
+X-Wind
+qingcheng
+Err0r233
+xiao_yong
+3IMiner
+我的所有朋友们
+
+以及...你..#PLAYERNAME#
+
+
+^Disconnect
+
+
+^BY Pitiedwzr
+  </file>
  <file path="home/DemoEND" name="CreditsData.txt"> 
 ^恭喜您解锁了：Demo结局
 感谢您游玩DisconnectDemo！本Demo不代表最终品质！
@@ -40,27 +128,9 @@ Uplink
 
 Hacknet OST
 Hacknet 迷宫 OST
-Kingsman:The Secret Service - Wave
-Frank Klepacki - 200 Meters
-Frank Klepacki - Blow it Up
-Frank Klepacki - Burn
-Frank Klepacki - c and c_in_the_house 
-Frank Klepacki - Calm Think
-Frank Klepacki - Credits
-Frank Klepacki - Destroy
-Frank Klepacki - Eagle Hunter
-Frank Klepacki - Fortification
-Frank Klepacki - Grinder
-Frank Klepacki - HM2
-Frank Klepacki - Industrofunk
-Frank Klepacki - jank
-Frank Klepacki - Militant Force 2
-Frank Klepacki - Motorized
-Frank Klepacki - Power
-Frank Klepacki - probing
-Frank Klepacki - ready_the_army
-Frank Klepacki - Tension
-Frank Klepacki - in Deep
+Red Alert 2 OST
+Red Alert 2 : Yuri's Revenge OST
+Red Alert 2 : Mental Omega OST
 Speeder - Mental Omega - Chitzkalla
 World Beyond - Mental Omega - Serenity
 Black Ice 9 - Mental Omega - Viratia
@@ -116,7 +186,7 @@ xiao_yong
 肯定是Pitiedwzr让你来的吧，话说他弟弟还是那么毛躁吗？
 呃，你居然忘了...什么？你连我为什么知道你在想什么都忘了？？
 好吧...我会读心术...回到他弟弟的问题，也就是Tom，他最近怎么样？
-...！！已经死了吗！！
+已经...！？！？
 我会尽快和Pitiedwzr联系的，我们DHS见。
 </file>
   <file path="bin/FastShell" name="info.txt">

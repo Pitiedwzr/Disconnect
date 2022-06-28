@@ -7,7 +7,7 @@
   <ports>21, 22, 25, 443, 554, 3659, 211</ports>
   <portRemap>21=8080,22=486,211=612,443=8642</portRemap>
   <admin type="fast" resetPassword="true" isSuper="true"/>
-    <eosDevice name="James's ePhone IXS Pro Max" id="STAREP" icon="ePhone2" empty="true" passOverride="alpine">
+    <eosDevice name="James's ePhone 15S Pro Max" id="STAREP" icon="ePhone2" empty="true" passOverride="alpine">
     <note>To do list
 检查交换机的日志
 配置网络中心的白名单

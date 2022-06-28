@@ -1,0 +1,33 @@
+config [TARGET_COMP] [SOURCE_COMP] 0 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+writel 我想是时候该谈谈了，只有你和我... $#%#$
+delay 6 $#%#$
+writel 要知道，人脑是一个充满电流的潘多拉魔盒，只不过我们才刚去了解它。 $#%#$
+delay 10 $#%#$
+writel 大部分人的大脑只能接收信号， $#%#$
+delay 5 $#%#$
+writel 但是有些人的大脑则更加先进，可以自由选择发出或接收电荷，例如我，和你...#PLAYERNAME# $#%#$
+delay 3 $#%#$
+writel 我的大脑可以发出信号，也就是说我可以控制人的心智...而你可以选择性的接受信号，这就导致我的心灵控制对你完全起不了作用.... $#%#$
+delay 3 $#%#$
+writel 我想，你知道我告诉你这些事的意思，对吧..？ $#%#$
+delay 3 $#%#$
+writel 我相信你，#PLAYERNAME#，我知道你很聪明，只不过... $#%#$
+delay 3 $#%#$
+writel 你毕竟不想再次体验一遍失去记忆的感觉...对么？ $#%#$
+delay 2 $#%#$
+writel 在你的大脑内失去你的朋友，你的理想，你的最爱的人，你的一切...... $#%#$
+delay 3 $#%#$
+writel 或许你会困惑着看着我。 $#%#$
+delay 2 $#%#$
+writel 但你只需要知道我告诉你这些事的意思。我也不希望重复说无聊的事... $#%#$
+delay 3 $#%#$
+writel 记住...你的选择无关紧要。 $#%#$
+delay 0.12 $#%#$
+showRam $#%#$
+showNetMap $#%#$
+showDisplay

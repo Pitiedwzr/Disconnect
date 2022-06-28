@@ -16,7 +16,7 @@
 	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="34.0">嗯，然后呢？对着它开两枪吗？</AddIRCMessage>
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="36.0">...你就把它拔出来就行了，不要用*那个东西*，那是摧毁基站用的</AddIRCMessage>
 	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="41.0">好了，@#PLAYERNAME#@Coel@D3F4ult 你们应该可以进入内部网络了，毕竟白名单已经物理离线了，不用谢。</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="43.0">Tom一直都这么硬核的吗...</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="43.0">好的...</AddIRCMessage>
 	<DeleteFile TargetComp="STARWL" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="DCDHS" Delay="38.0"/>
   </OnAdminGained>
 </ConditionalActions>

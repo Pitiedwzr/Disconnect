@@ -1,0 +1,15 @@
+<ConditionalActions>
+<Instantly needsMissionComplete="false">
+   <RunFunction FunctionName="playCustomSong:Music/Inside Your Soul-Commom Nuisance(BI9 remix).ogg" FunctionValue="1" />
+    <StartScreenBleedEffect AlertTitle="EXPLORE STAR" CompleteAction="Actions/DHS/ExplorStarFail.xml" TotalDurationSeconds="240" DelayHost="Cheat" Delay="11">探索Star的深层服务器网络
+获取有关AER系统的文件
+断开
+</StartScreenBleedEffect>
+<LoadMission MissionName="Missions/ExplorStar.xml"/>
+    <SwitchToTheme ThemePathOrName="Themes/SecondaryTheme.xml" FlickerInDuration="2" DelayHost="Cheat" Delay="12" />
+    
+    
+    
+</Instantly>
+ 
+</ConditionalActions>

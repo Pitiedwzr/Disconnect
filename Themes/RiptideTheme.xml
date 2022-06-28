@@ -23,10 +23,10 @@
   <exeModuleTopBar>0,57,77, 200</exeModuleTopBar>
   <exeModuleTitleText>110,110,110,0</exeModuleTitleText>
 
-  <!--
+
   <lockedColor>201,40,255,150</lockedColor>
   <brightLockedColor>201,40,255</brightLockedColor>
   <brightUnlockedColor>255,180,0</brightUnlockedColor>
   <unlockedColor>255,180,0, 150</unlockedColor>
-  -->
+  
 </CustomTheme>

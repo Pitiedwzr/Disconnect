@@ -3,7 +3,7 @@
   <admin type="fast" resetPassword="true" isSuper="true"/>
   <LogoCustomConnectDisplayDaemon logo="Star/Terrorist/WhiteTiger.png" title="Star/Terrorist/WhiteTiger_title.png" overdrawLogo="true" buttonAlignment="right" />
 
-  <portsForCrack val="9" />
+  <portsForCrack val="9999" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
 
 

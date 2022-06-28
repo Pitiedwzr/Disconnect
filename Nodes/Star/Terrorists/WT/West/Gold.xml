@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="WTWJ" name="西白之金" security="5" ip="84.191.211.120" type="4" icon="Alchemist">
+  <firewall level="7" solution="89HX3JK" additionalTime="0.4"/>
+  <proxy time="0.5" />
+  <trace time="80" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 554, 80</ports>
+  <portRemap>22=153,443=157,80=8080</portRemap>
+<admin type="fast" resetPassword="true" isSuper="true"/>
+
+</Computer>

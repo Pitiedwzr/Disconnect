@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="STARDOC" 
+          name="Star 内部档案" 
+          ip="38.57.165.16"
+          security="5"
+          allowsDefaultBootModule="false"
+          icon="DLCServer1" 
+          type="empty" > 
+<admin type="fast" resetPassword="true" isSuper="true"/>
+  <portsForCrack val="9" />
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
+<memoryDumpFile name="AERInfo.png" path="home/AER">
+  <Memory>
+    <Images>
+      <Image>Star/ActiveErrorReply.png</Image>
+    </Images>
+  </Memory>
+</memoryDumpFile>
+</Computer>

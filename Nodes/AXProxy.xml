@@ -1,13 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="AXProxy" name="AqurisindX 跳板-S28" security="5" allowsDefaultBootModule="false" type="4" >
-
-
+<Computer id="AXProxy" name="AqurisindX 跳板-S28" security="5" allowsDefaultBootModule="false" type="4">
   <proxy time="1" />
   <firewall level="5" solution="X2163" additionalTime="0.3"/>
   <portsForCrack val="4" />
   <ports>22, 21, 6881, 25</ports>
   <trace time="150"/>
-
-<dlink target="AXGateway" />
-
+  <dlink target="AXGateway" />
 </Computer>

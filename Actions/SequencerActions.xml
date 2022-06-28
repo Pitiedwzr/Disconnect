@@ -1,0 +1,41 @@
+<ConditionalActions>
+<Instantly needsMissionComplete="false">
+  <RunFunction FunctionName="playCustomSong:Music/Not Yet Used/SAIKYO Fracture Lady After Tempestissimo.ogg" FunctionValue="1" />
+    <StartScreenBleedEffect AlertTitle="OVERLOAD SIMULATOR" CompleteAction="Actions/HackerScriptActions.xml" TotalDurationSeconds="240" DelayHost="Cheat" Delay="12">过载“玄”模拟器
+寻找实验体档案
+探索事件真相
+...
+</StartScreenBleedEffect>
+
+    <SwitchToTheme ThemePathOrName="Themes/WeedsTheme.xml" FlickerInDuration="3" DelayHost="Cheat" Delay="12" />
+    
+    
+    <CancelScreenBleedEffect DelayHost="Cheat" Delay="250"/>
+    
+    <KillExe DelayHost="Cheat" Delay="250" ExeName="sequencer" />
+    
+    
+    <SwitchToTheme ThemePathOrName="Themes/FloatVoidThemeStandard.xml" FlickerInDuration="1" DelayHost="Cheat" Delay="255" />
+</Instantly>
+  
+  <!-- this triggers immediately, as soon as this is finished loading! Actions will happen in the order they appear in this file.-->
+  <HasFlags requiredFlags="EXPLORESTAR">
+      <RunFunction FunctionName="playCustomSong:Music/Inside Your Soul-Commom Nuisance(BI9 remix).ogg" FunctionValue="1" />
+    <StartScreenBleedEffect AlertTitle="EXPLORE STAR" CompleteAction="Actions/HackerScriptActions.xml" TotalDurationSeconds="240" DelayHost="Cheat" Delay="12">探索Star的深层服务器网络
+获取机密文件
+断开
+</StartScreenBleedEffect>
+
+    <SwitchToTheme ThemePathOrName="Themes/SecondaryTheme.xml" FlickerInDuration="3" DelayHost="Cheat" Delay="12" />
+    
+    
+    <CancelScreenBleedEffect DelayHost="Cheat" Delay="250"/>
+    
+    <KillExe DelayHost="Cheat" Delay="250" ExeName="sequencer" />
+    
+    
+    <SwitchToTheme ThemePathOrName="Themes/MiamiThemeLightBlue.xml" FlickerInDuration="1" DelayHost="Cheat" Delay="255" />
+    
+  </HasFlags>
+
+</ConditionalActions>

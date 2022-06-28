@@ -1,0 +1,21 @@
+<ConditionalActions>
+
+  <Instantly>
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/JamesTime.ogg" />
+    <AddConditionalActions Filepath="Actions/DHS/playSong-AfterJames.xml" DelayHost="Cheat" Delay="46"/>
+    <LaunchHackScript Filepath="HackerScripts/JamesTime.txt" DelayHost="Cheat" Delay="0" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Blue.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="1"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Green.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="7"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Pink.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="17"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Red.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="22"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Blue.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="25"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Green.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="28"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Pink.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="31"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Red.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="33"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Blue.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="35"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Green.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="38"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Pink.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="41"/>
+    <SwitchToTheme ThemePathOrName="Themes/MiamiTheme - Blue.xml" FlickerInDuration="0.5" DelayHost="Cheat" Delay="44"/>
+  </Instantly>
+
+</ConditionalActions>

@@ -1,6 +1,7 @@
 <ConditionalActions>
   
   <Instantly>
+  <RunFunction FunctionName="playCustomSong:Music/Viratia Reprise - Frank Klepacki.ogg" FunctionValue="1" />
     <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3">...</AddIRCMessage>
 	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="6">....</AddIRCMessage>
 	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="10">...</AddIRCMessage>

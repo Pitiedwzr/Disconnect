@@ -5,6 +5,8 @@
   
   <!-- Main Colors - these will define the main feel of the theme -->
   <!-- Color of nodes on the netmap, and many other derived colors. -->
+  <backgroundImagePath>Themes/Backgrounds/Spiral - Green.jpg</backgroundImagePath>
+  
   <defaultHighlightColor>10,190,132</defaultHighlightColor>
   <defaultTopBarColor>7,65,74,255</defaultTopBarColor>
   <!-- This is used for the outlines of the module windows -->

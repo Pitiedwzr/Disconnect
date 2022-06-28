@@ -8,7 +8,7 @@
           type="empty" > 
           <admin type="fast" resetPassword="true" isSuper="true"/>
 <LogoCustomConnectDisplayDaemon logo="Star/Terrorist/Linnet.png" title="Star/Terrorist/Linnet_title.png" overdrawLogo="true" buttonAlignment="left" />
-  <portsForCrack val="9" />
+  <portsForCrack val="999999" />
   <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192, 554, 9418, 3724, 3659</ports>
 
 

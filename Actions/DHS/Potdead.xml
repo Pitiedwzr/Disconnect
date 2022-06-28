@@ -1,7 +1,7 @@
 <ConditionalActions>
   
   <Instantly>
-  <RunFunction FunctionName="playCustomSong:Music/Speeder-Viratia-Mental Omega.ogg" FunctionValue="1" />
+  <RunFunction FunctionName="playCustomSong:Music/Viratia - Frank Klepacki.ogg" FunctionValue="1" />
 	<RunFunction DelayHost="DCDHS" Delay="1" FunctionName="defAttackAircraft" />
 	<LaunchHackScript Filepath="HackerScripts/clearTerminal.txt" DelayHost="DCDHS" Delay="1.1" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" />
 	<LoadMission MissionName="Missions/AC.xml"/>

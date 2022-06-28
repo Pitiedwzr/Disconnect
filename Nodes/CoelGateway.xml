@@ -6,6 +6,7 @@
   <firewall level="4" solution="coelllllll" additionalTime="0.3"/>
   <portsForCrack val="4" />
   <ports>22, 21, 6881, 25</ports>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
   <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
   <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
   <file path="home" name="not_the_first.txt">Hi Hanna</file>

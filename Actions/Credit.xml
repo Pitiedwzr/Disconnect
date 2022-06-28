@@ -1,10 +1,11 @@
 <ConditionalActions>
   
-  <!-- this triggers immediately, as soon as this is finished loading! Actions will happen in the order they appear in this file.-->
-  <Instantly>
-    <!--Actions here-->
-<RunFunction FunctionName="playCustomSong:Music/Speeder-Chitzkalla-Mental Omega.ogg" />
+<HasFlags requiredFlags="GOODEND">
+  <RunFunction FunctionName="playCustomSong:Music/Speeder-Chitzkalla-Mental Omega.ogg" />
+</HasFlags>
 
-  </Instantly>
+  <HasFlags requiredFlags="BADEND">
+    <RunFunction FunctionName="playCustomSong:Music/None.ogg" />
+  </HasFlags>
 
 </ConditionalActions>

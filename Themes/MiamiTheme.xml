@@ -1,6 +1,6 @@
 <CustomTheme>
-  <themeLayoutName>space</themeLayoutName>
-  <backgroundImagePath>DLC/Themes/Starfield2.png</backgroundImagePath>
+  <themeLayoutName>greencompact</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Starfield2.png</backgroundImagePath>
 
   <defaultHighlightColor>214,150,212</defaultHighlightColor>
   <defaultTopBarColor>6,6,6,80</defaultTopBarColor> <!--105,62,102-->

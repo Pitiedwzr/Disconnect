@@ -66,6 +66,8 @@ kernel32.exe
 sysexplr.exe
 Regedit.bat
 
+格鲁纳德岛（炭疽实验岛）--HY总部（价值500英镑=4300RMB的总部）
+
   <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
   <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
   <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
@@ -78,6 +80,19 @@ Regedit.bat
   addFlags:flagname1,flagname2,flagname3,etc
   removeFlags:flagname1,flagname2,flagname3,etc
 
+James time
+我想是时候该谈谈了，只有你和我...
+要知道，人脑是一个充满电流的潘多拉魔盒，只不过我们才刚去了解它。
+大部分人的大脑只能接收信号，
+但是有些人的大脑则更加先进，可以自由选择发出或接收电荷，例如我，和你...#PLAYERNAME#
+我的大脑可以发出信号，也就是说我可以控制人的心智...而你可以选择性的接受信号，这就导致我的心灵控制对你完全起不了作用....
+我想，你知道我告诉你这些事的意思，对吧..？
+我相信你，#PLAYERNAME#，我知道你很聪明，只不过...
+你毕竟不想再次体验一遍失去记忆的感觉...对么....？
+在你的大脑内失去你的朋友，你的理想，你的一切......
+或许你会困惑着看着我。
+但你只需要知道我告诉你这些事的意思。我也不希望重复说无聊的事...
+并且记住...你的选择无关紧要。
 =====================================================================
 
 DC2

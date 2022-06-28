@@ -1,120 +1,123 @@
 Errors Found. Writing report to Extensions/Disconnect/report.txt
 
-Load Error:
-System.FormatException 
+Mission Errors for Extensions/Disconnect/Missions/7.xml:
+Error running end function loadConditionalActions:Actions/DHSend/7END.xml
+System.Xml.XmlException 
  
-COMPUTER LOAD ERROR:
-Error loading computer "Extensions/Disconnect/Nodes\Core\DisconnectNews.xml" 
-Error: DirectoryNotFoundException - Could not find a part of the path
-'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'.
+Content cannot be converted to the type Float. Line 3, position 49. 
  
-Source : Hacknet 
+Source : System.Xml 
  
-System.FormatException: COMPUTER LOAD ERROR:
-Error loading computer "Extensions/Disconnect/Nodes\Core\DisconnectNews.xml" 
-Error: DirectoryNotFoundException - Could not find a part of the path
-'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'. --->
-System.IO.DirectoryNotFoundException: Could not find a part of the path
-'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'.
+System.Xml.XmlException: Content cannot be converted to the type Float. Line 3, position 49. --->
+System.FormatException: Input string was not in a correct format.
 
-   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath) 
-   at System.IO.FileSystemEnumerableIterator`1.CommonInit() 
-   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String
-   searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-
-   at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption) 
-   at System.IO.DirectoryInfo.GetFiles(String searchPattern) 
-   at Hacknet.MissionListingServer.addListingsForGroup() 
-   at Hacknet.MissionListingServer.initFiles() 
-   at Hacknet.Computer.initDaemons() 
-   at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
-   preventInitDaemons)
-
-   at Hacknet.Computer.loadFromFile(String filename) 
-   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
-   filename)
-
+   at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt) 
+   at System.Xml.XmlConvert.ToSingle(String s) 
+   at System.Xml.XmlReader.ReadContentAsFloat() 
    --- End of inner exception stack trace --- 
-   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
-   filename)
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   at Hacknet.SAAddIRCMessage.DeserializeFromReader(XmlReader rdr) 
+   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
+   at Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
 
-   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
-   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
-   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object os_obj) 
-   at Hacknet.OS.LoadContent() 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
-   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername, ScreenManager
-   screenMan)
-
-   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String path,
-   Int32& errorsAdded)
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2 bodyContentReadAction) 
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
  
 Inner : --------------- 
  
-System.IO.DirectoryNotFoundException  
+System.FormatException  
       
-    Could not find a part of the path 
-    'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'. 
+    Input string was not in a correct format.  
       
     Source : mscorlib  
       
-    System.IO.DirectoryNotFoundException: Could not find a part of the path 
-    'E:\steam\steamapps\common\Hacknet\Extensions\Disconnect\Docs\ListingServerArticles'. 
-     
-       at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)  
-       at System.IO.FileSystemEnumerableIterator`1.CommonInit()  
-       at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String 
-       searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-     
-       at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)  
-       at System.IO.DirectoryInfo.GetFiles(String searchPattern)  
-       at Hacknet.MissionListingServer.addListingsForGroup()  
-       at Hacknet.MissionListingServer.initFiles()  
-       at Hacknet.Computer.initDaemons()  
-       at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
-       
-
-       preventInitDaemons) 
-     
-       at Hacknet.Computer.loadFromFile(String filename)  
-       at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String 
-       filename) 
+    System.FormatException: Input string was not in a correct format.  
+       at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)  
+       at System.Xml.XmlConvert.ToSingle(String s)  
+       at System.Xml.XmlReader.ReadContentAsFloat()  
       
       
       
-       at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)  
-       at System.IO.FileSystemEnumerableIterator`1.CommonInit()  
-       at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String 
-       searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
-     
-       at System.IO.DirectoryInfo.InternalGetFiles(String searchPattern, SearchOption searchOption)  
-       at System.IO.DirectoryInfo.GetFiles(String searchPattern)  
-       at Hacknet.MissionListingServer.addListingsForGroup()  
-       at Hacknet.MissionListingServer.initFiles()  
-       at Hacknet.Computer.initDaemons()  
-       at Hacknet.ComputerLoader.loadComputer(String filename, Boolean preventAddingToNetmap, Boolean
-       
-
-       preventInitDaemons) 
-     
-       at Hacknet.Computer.loadFromFile(String filename)  
-       at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String 
-       filename) 
+       at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)  
+       at System.Xml.XmlConvert.ToSingle(String s)  
+       at System.Xml.XmlReader.ReadContentAsFloat() 
  
  
  
-   at Hacknet.Extensions.ExtensionLoader.<>c__DisplayClass2.<LoadNewExtensionSession>b__0(String
-   filename)
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   at Hacknet.SAAddIRCMessage.DeserializeFromReader(XmlReader rdr) 
+   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
+   at Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
 
-   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
-   at Hacknet.Utils.ActOnAllFilesRevursivley(String foldername, Action`1 FileAction) 
-   at Hacknet.Extensions.ExtensionLoader.LoadNewExtensionSession(ExtensionInfo info, Object os_obj) 
-   at Hacknet.OS.LoadContent() 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen, Nullable`1 controllingPlayer) 
-   at Hacknet.ScreenManager.AddScreen(GameScreen screen) 
-   at Hacknet.Misc.ExtensionTests.SetupOSForTests(String ActiveExtensionFoldername, ScreenManager
-   screenMan)
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2 bodyContentReadAction) 
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)Mission Errors for Extensions/Disconnect/Missions/Other/7.xml:
+Error running end function loadConditionalActions:Actions/DHSend/7END.xml
+System.Xml.XmlException 
+ 
+Content cannot be converted to the type Float. Line 3, position 49. 
+ 
+Source : System.Xml 
+ 
+System.Xml.XmlException: Content cannot be converted to the type Float. Line 3, position 49. --->
+System.FormatException: Input string was not in a correct format.
 
-   at Hacknet.Misc.ExtensionTests.TestExtensionForRuntime(ScreenManager screenMan, String path,
-   Int32& errorsAdded)
+   at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt) 
+   at System.Xml.XmlConvert.ToSingle(String s) 
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   --- End of inner exception stack trace --- 
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   at Hacknet.SAAddIRCMessage.DeserializeFromReader(XmlReader rdr) 
+   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
+   at Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
+
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2 bodyContentReadAction) 
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os) 
+ 
+Inner : --------------- 
+ 
+System.FormatException  
+      
+    Input string was not in a correct format.  
+      
+    Source : mscorlib  
+      
+    System.FormatException: Input string was not in a correct format.  
+       at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)  
+       at System.Xml.XmlConvert.ToSingle(String s)  
+       at System.Xml.XmlReader.ReadContentAsFloat()  
+      
+      
+      
+       at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)  
+       at System.Xml.XmlConvert.ToSingle(String s)  
+       at System.Xml.XmlReader.ReadContentAsFloat() 
+ 
+ 
+ 
+   at System.Xml.XmlReader.ReadContentAsFloat() 
+   at Hacknet.SAAddIRCMessage.DeserializeFromReader(XmlReader rdr) 
+   at Hacknet.SerializableAction.Deserialize(XmlReader rdr) 
+   at Hacknet.SerializableConditionalActionSet.<>c__DisplayClass1.<Deserialize>b__0(XmlReader
+   xmlReader, String EndKeyName)
+
+   at Hacknet.SerializableCondition.Deserialize(XmlReader rdr, Action`2 bodyContentReadAction) 
+   at Hacknet.SerializableConditionalActionSet.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.Deserialize(XmlReader rdr) 
+   at Hacknet.RunnableConditionalActions.LoadIntoOS(String filepath, Object OSobj) 
+   at Hacknet.MissionFunctions.runCommand(Int32 value, String name) 
+   at Hacknet.Misc.ExtensionTests.TestExtensionMission(Object mission, String filepath, Object os)

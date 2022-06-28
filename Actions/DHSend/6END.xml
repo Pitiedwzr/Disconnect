@@ -1,12 +1,60 @@
 <ConditionalActions>
   <Instantly>
-    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="2">==== Disconnect Demo 完 ====</AddIRCMessage>
-    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3">感谢您游玩Disconnect DEMO！</AddIRCMessage>
-    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="5">!ATTACHMENT:link#%#Disconnect DEMO Credit#%#985.83.3.214</AddIRCMessage>
-    <DeleteFile TargetComp="Credit" FilePath="home" FileName="CreditsData.txt" DelayHost="Cheat" Delay="1"/>
-
+  <RunFunction FunctionName="addFlags:SequencerStart"/>
+    <RunFunction FunctionName="playCustomSong:Music/Frostburn-Black Ice 9.ogg" FunctionValue="1" />
+    <DeleteFile TargetComp="playerComp" FilePath="home" FileName="Notes.txt" DelayHost="Cheat" Delay="1"/>
+    <DeleteFile TargetComp="playerComp" FilePath="bin" FileName="MessageViewer.exe" DelayHost="Cheat" Delay="1"/>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="2">*** 与Shugarbush 工作站的连接正在进行中 ***</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="4">*** 与AqurisindX 基地网关的连接正在进行中 ***</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="6">*** 与Peter 笔记本的连接正在进行中 ***</AddIRCMessage>
+    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="9">好吧，我来介绍一下，这位是Shugarbush，她十分擅长情报收集。</AddIRCMessage>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="12">Hi，我是Shugarbush</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="15">那么，接下来是Peter，RTSP破解器的开发者</AddIRCMessage>
+    <AddIRCMessage Author="Peter" TargetComp="DCDHS" Delay="17">大家好，实际上我并没有Coel说的那么厉害，大部分工具都是我的老师剩下来的。</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="20">呃..这位是AqurisindX</AddIRCMessage>
+    <AddIRCMessage Author="AqurisindX" TargetComp="DCDHS" Delay="23">...这种紧急情况自我介绍会显得多余，@Pitiedwzr 你弟弟Tom的事我很抱歉....谈正事吧。</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="26">......我没事。好吧，我让D3F4ult他们把各位找来是想对抗HY的组织...Star</AddIRCMessage>
+    <AddIRCMessage Author="AqurisindX" TargetComp="DCDHS" Delay="29">什么...他还活着....</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="33">显然是的..并且我们的探索也陷入了僵局</AddIRCMessage>
+    <AddIRCMessage Author="AqurisindX" TargetComp="DCDHS" Delay="35">话说起来，你是怎么找到我的@#PLAYERNAME# ，你的操作系统难道可以找到跳板的宿主机？</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="38">呃.....我的操作系统是Hacknet OS，很普通啊...</AddIRCMessage>
+    <AddIRCMessage Author="Peter" TargetComp="DCDHS" Delay="41">Hacknet...难道你认识Bit..？</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="44">是的，Bit的紧急系统在他死后向我发送了信息，也是他指导我摧毁了Porthack.Heart</AddIRCMessage>
+    <AddIRCMessage Author="AqurisindX" TargetComp="DCDHS" Delay="46">打断一下你们的谈话，我们目前的防御太薄弱了，尤其是面对HY这种等级的人物，因此我给你们配置了跳板服务器，使用方式很简单，连接就可以。 @#PLAYERNAME# 你的操作系统很特别，我无法直接把跳板添加到你的桌面上，因此你需要自己连接。</AddIRCMessage>
+    <ShowNode DelayHost="cheat" Delay="46" Target="DCGate"/>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="53">等下，我好像找到Star的深层服务器了...但是我找不到它的连接方式，它看起来是离线的？？</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="55">...那不可能，如果它始终离线，你是怎么找到它的。</AddIRCMessage>
+    <AddIRCMessage Author="Peter" TargetComp="DCDHS" Delay="59">等等，离线...听上去像是Entech的科技？</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="59.5">Entech...？</AddIRCMessage>
+    <AddIRCMessage Author="Peter" TargetComp="DCDHS" Delay="62">哈！看来#PLAYERNAME#还记得Entech的事，那么只需要...</AddIRCMessage>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="66">Sequencer？</AddIRCMessage>
+    <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="67.5">Sequencer...？</AddIRCMessage>
+    <AddIRCMessage Author="Peter" TargetComp="DCDHS" Delay="70">是的！这是Bit留下的东西，但是...这东西已经很久没有人维护了..</AddIRCMessage>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="72">呃，或许我可以试试...</AddIRCMessage>
+    <AddIRCMessage Author="Peter" TargetComp="DCDHS" Delay="75">行，我已经传到你的电脑上了。</AddIRCMessage>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="79">好吧....虽然它看上去能用，但是支持Sequencer运行的Entech服务器已经连接不上了...</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="82">或许你可以在Disconnect深层网络上搭建服务端？</AddIRCMessage>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="85">嗯...好的</AddIRCMessage>
+    <AddAsset FileName="Sequencer.exe" FileContents="#EXT_SEQUENCER_EXE#" TargetComp="DCDrop" TargetFolderpath="bin"/>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="88">顺便一说，我还通过一些*特殊手段*发现Star在内部的通用端口——211，但是我们看起来并没有它的破解器...</AddIRCMessage>
+    <AddIRCMessage Author="AqurisindX" TargetComp="DCDHS" Delay="91">我试试。</AddIRCMessage>
+    <AddIRCMessage Author="AqurisindX" TargetComp="DCDHS" Delay="96">哈，这种等级的端口很好破解，dll足以，文件已经上传到共享服务器了，它可以自动搜索211端口并破解。</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="95">*** AqurisindX上传了文件 ***</AddIRCMessage>
+    <AddAsset FileName="TransferRepeater.dll" FileContents="#BINARYSMALL#" TargetComp="DCDrop" TargetFolderpath="bin"/>
+    <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="99">哇哦...太强了</AddIRCMessage>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="102">嗯...一个坏消息，Sequencer的服务端年代过于久远了，它恐怕需要重新编写...现在只能通过Disconnect深层服务器运行Sequencer</AddIRCMessage>
+    <AddIRCMessage Author="Peter" TargetComp="DCDHS" Delay="105">没关系，我们的目的是找到之前ROOTKIT终端输出的*AER系统*，Sequencer的问题之后再说</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="108">@Shugarbush 那么，让我们开始吧。</AddIRCMessage>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="111">好的。</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="113.0">------------------------------------------------</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="113.2">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="113.4">*** CHANNEL功能初始化：## S_DCSEQUENCER.dll ## ***</AddIRCMessage>>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="113.6">------------------------------------------------</AddIRCMessage>
+    <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="115">好的，现在Sequencer正在搜索...</AddIRCMessage>
+    <AddConditionalActions Filepath="Actions/DHS/ExplorStar.xml" DelayHost="Cheat" Delay="126"/>>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="125.5">*** Sequencer搜索完成 ***</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="126">!ATTACHMENT:link#%#Star 深层网络#%#33.216.59.79</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="128">@channel GOGOGO!ROOTKIT随时可能启动，尽快完成任务！</AddIRCMessage>
+    
   </Instantly>
-  <OnConnect target="Credit">
-        <CopyAsset DestFilePath="home" DestComp="Credit" SourceComp="Cheat" SourceFileName="CreditsData.txt" SourceFilePath="home/DemoEND"/>
-  </OnConnect>
 </ConditionalActions>

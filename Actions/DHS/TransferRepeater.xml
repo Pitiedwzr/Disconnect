@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <OnConnect target="Cheat">
+    <LaunchHackScript Filepath="HackerScripts/TransferRepeaterTerminal.txt" DelayHost="Cheat" Delay="5" SourceComp="DCDHS" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+  </OnConnect>
+</ConditionalActions>

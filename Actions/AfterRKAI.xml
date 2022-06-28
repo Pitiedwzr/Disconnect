@@ -1,5 +1,6 @@
 <ConditionalActions>
 <OnConnect target="playerComp" needsMissionComplete="false">
+<RunFunction FunctionName="playCustomSong:Music/Sewer - Fr0zEnPh0eNIX.ogg" FunctionValue="1" />
     <SetLock DelayHost="Cheat" Delay="1" Module="terminal" IsLocked="true" IsHidden="false"/>
     <LaunchHackScript Filepath="HackerScripts/AfterROOTKIT.txt" DelayHost="EDI" Delay="1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
     <CopyAsset DestFilePath="sys" DestComp="playerComp" SourceComp="playerTracker" SourceFileName="bootcfg.dll" SourceFilePath="sys"/>
@@ -9,6 +10,7 @@
 
   </OnConnect>
   <OnConnect target="DCDHS" needsMissionComplete="false">
+  <RunFunction FunctionName="playCustomSong:Music/Solara-Black Ice 9.ogg" FunctionValue="1" />
     <AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="2">幸好有自动修复...我以为又要换网关了._.</AddIRCMessage>
     <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="4">真怀疑我的工作站能不能活过ROOTKIT...</AddIRCMessage>
     <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="6">所以@Pitiedwzr 呢？</AddIRCMessage>
@@ -23,15 +25,10 @@
   <OnConnect target="AXGateway" needsMissionComplete="false">
   <LaunchHackScript Filepath="HackerScripts/Message.txt" DelayHost="EDI" Delay="1" SourceComp="EDI" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
   <CopyAsset DestFilePath="bin" DestComp="playerComp" SourceComp="Cheat" SourceFileName="MessageViewer.exe" SourceFilePath="bin"/>
-    <DeleteFile TargetComp="playerComp" FilePath="home" FileName="Notes.txt" DelayHost="Cheat" Delay="1"/>
-    <CopyAsset DestFilePath="home" DestComp="playerComp" SourceComp="Cheat" SourceFileName="Notes.txt" SourceFilePath="home"/>
-    <RunFunction FunctionName="addFlags:FindAX" FunctionValue="0" DelayHost="Cheat" Delay="1"/>
+  <CopyAsset DestFilePath="home" DestComp="playerComp" SourceComp="Cheat" SourceFileName="Notes.txt" SourceFilePath="home"/>
+  <RunFunction FunctionName="addFlags:FindAX" FunctionValue="0" DelayHost="Cheat" Delay="1"/>
   </OnConnect>
 
 
-  <OnDisconnect target="AXGateway">
-    <DeleteFile TargetComp="playerComp" FilePath="home" FileName="Notes.txt" DelayHost="Cheat" Delay="1"/>
-    <DeleteFile TargetComp="playerComp" FilePath="bin" FileName="MessageViewer.exe" DelayHost="Cheat" Delay="1"/>
-  </OnDisconnect>
 
 </ConditionalActions>

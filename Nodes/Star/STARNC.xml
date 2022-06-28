@@ -5,7 +5,7 @@
   <portsForCrack val="6" />
   <ports>22, 21, 25, 443, 554, 211</ports>
   <portRemap>21=42,554=128</portRemap>
-  <admin type="fast" resetPassword="true" isSuper="true"/>
+  <admin type="progress"/>
   <adminPass pass="6N34T3T3C" />
 
   <dlink target="STARS" />

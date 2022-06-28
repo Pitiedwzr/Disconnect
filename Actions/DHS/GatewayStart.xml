@@ -1,5 +1,7 @@
 <ConditionalActions>
   <OnConnect target="DCGate" needsMissionComplete="false">
-    <SwitchToTheme ThemePathOrName="Themes/CautionTheme-Green.xml" FlickerInDuration="2.0" DelayHost="Cheat" Delay="0" />
+    <SwitchToTheme ThemePathOrName="Themes/HoraTheme.xml" FlickerInDuration="5" DelayHost="Cheat" Delay="0" />
+    <RunFunction FunctionName="playCustomSong:Music/Stranded In Space - XJ Matt.ogg" />
+    <RunFunction FunctionName="playCustomSong:Music/Awaken the Giant-World Beyond.ogg" DelayHost="Cheat" Delay="213" />
   </OnConnect>
 </ConditionalActions>

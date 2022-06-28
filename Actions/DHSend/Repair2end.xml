@@ -1,7 +1,7 @@
 <ConditionalActions>
   <Instantly>
 
-    <RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-Power.ogg" FunctionValue="1" />
+    <RunFunction FunctionName="playCustomSong:Music/Frank Klepacki-Destroy.ogg" FunctionValue="1" />
     <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="8.0">***与D3F4ult工作站的连接正在进行中...***</AddIRCMessage>
     <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="11.0">***与Pot作战基地的连接正在进行中...***</AddIRCMessage>
     <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="13.0">***与Tom笔记本的连接正在进行中...***</AddIRCMessage>
@@ -14,6 +14,7 @@
     <AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="27.0">我来了._.</AddIRCMessage>
     <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="30.0">@channel 欢迎归队！</AddIRCMessage>
     <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="32.0">顺便一说，我找到了之前Bibliotheque的影子储存器，里面有用的东西我已经上传到共享服务器了</AddIRCMessage>
+    <AddAsset FileName="SignalScramble.exe" FileContents="#SIGNAL_SCRAMBLER_EXE#" TargetComp="DCDrop" TargetFolderpath="bin"/>
     <AddAsset FileName="SQLBufferOverflow.exe" FileContents="#SQL_CRACK#" TargetComp="DCDrop" TargetFolderpath="bin" />
     <AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="DCDrop" TargetFolderpath="bin" />
     <AddAsset FileName="MemDumpGenerator.exe" FileContents="#MEM_DUMP_GENERATOR#" TargetComp="DCDrop" TargetFolderpath="bin" />
@@ -33,7 +34,6 @@
     <AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="60.0">......</AddIRCMessage>
     <AddAsset FileName="@2_18.11.38.227_Disconnected" FileContents="@2 18.11.38.227 Disconnected" TargetComp="Tracker" TargetFolderpath="log" />
     <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Pitiedwzr_x-server.sys" SourceFilePath="sys/DC" />
-    <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="#PLAYERNAME#_x-server.sys" SourceFilePath="sys/DC" />
     <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Pot_x-server.sys" SourceFilePath="sys/DC" />
     <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="Tom_x-server.sys" SourceFilePath="sys/DC" />
     <CopyAsset DestFilePath="home/Theme" DestComp="DCDrop" SourceComp="Cheat" SourceFileName="D3F4ult_x-server.sys" SourceFilePath="sys/DC" />

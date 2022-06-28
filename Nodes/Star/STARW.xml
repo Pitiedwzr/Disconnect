@@ -2,7 +2,7 @@
 <Computer id="STARW" name="Star 外部服务器" security="3" type="4" icon="DLCServer">
   <firewall level="6" solution="WDH3I1" additionalTime="0.2"/>
   <proxy time="1" />
-  <trace time="60" />
+  <trace time="80" />
   <portsForCrack val="4" />
   <ports>22, 25, 443, 554, 211</ports>
   <portRemap>22=331,211=648,443=296</portRemap>

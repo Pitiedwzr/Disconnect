@@ -1,5 +1,5 @@
 <ConditionalActions>
   <Instantly>
-
+    <AddIRCMessage Author="" TargetComp="DCDHS" Delay=""></AddIRCMessage>
   </Instantly>
 </ConditionalActions>

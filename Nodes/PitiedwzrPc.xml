@@ -1,19 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="PitiedwzrPc" name="Pitiedwzr 个人电脑" security="6" allowsDefaultBootModule="false" icon="DLCPC2" ip="85.833.214.54" type="empty">
-
-
-  <trace time="70" />
-  <portsForCrack val="4" />
-  <ports>22, 21, 6881, 25, 443, 554, </ports>
-
-  <portsForCrack val="4" />
-
-
-
-
+  <trace time="1000" />
+  <portsForCrack val="0" />
+  <ports>443</ports>
+  <file path="home" name="GIFT.TXT"> 你能找到这里说明你确实很有耐心 这是给你的奖励 或许这是某个文件的密码...？ XAT31=P3R1AY
+  </file>
   <customthemefile path="sys" name="x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
-<customthemefile path="sys" name="Pitiedwzr_x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
-
-
-
+  <customthemefile path="sys" name="Pitiedwzr_x-server.sys" themePath="Themes/ManjusakaTheme.xml"/>
 </Computer>

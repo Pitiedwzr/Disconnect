@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BDWT" name="西青之土" security="5" ip="71.134.228.85" type="4" icon="Alchemist">
+  <firewall level="7" solution="89HX3JK" additionalTime="0.4"/>
+  <proxy time="0.5" />
+  <trace time="80" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 554, 80</ports>
+  <portRemap>22=153,443=157,80=8080</portRemap>
+<admin type="fast" resetPassword="true" isSuper="true"/>
+
+</Computer>

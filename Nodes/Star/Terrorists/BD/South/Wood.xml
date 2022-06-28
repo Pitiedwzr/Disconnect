@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="BDSM" name="南青之木" security="5" ip="204.59.87.151" type="4" icon="Alchemist">
+  <firewall level="9" solution="9BHNVG53Q" additionalTime="0.4"/>
+  <proxy time="1" />
+  <trace time="85" />
+  <portsForCrack val="6" />
+  <ports>22, 25, 443, 554, 80, 6881</ports>
+  <portRemap>22=153,443=157,80=8080</portRemap>
+<admin type="fast" resetPassword="true" isSuper="true"/>
+
+<dlink target="STARIRCTRUE"/>
+</Computer>

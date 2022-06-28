@@ -1,0 +1,17 @@
+<ConditionalActions>
+<Instantly>
+<HideAllNodes DelayHost="Cheat" Delay="1"/>
+<DeleteFile TargetComp="Credit" FilePath="home" FileName="CreditsData.txt" DelayHost="Cheat" Delay="1"/>
+<LaunchHackScript Filepath="HackerScripts/ExplorStarFail.txt" DelayHost="Cheat" Delay="1" SourceComp="STARIRCTRUE" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<RunFunction FunctionName="playCustomSong:Music/None.ogg" FunctionValue="1" />                                                            
+</Instantly>
+<OnConnect target="playerComp">
+<HideNode DelayHost="Cheat" Delay="1" TargetComp="playerComp"/>
+<RunFunction FunctionName="addFlags:BADEND"/>
+<CopyAsset DestFilePath="home" DestComp="Credit" SourceComp="Cheat" SourceFileName="CreditsData.txt" SourceFilePath="home/BADEND"/>
+<ShowNode DelayHost="Cheat" Delay="1" Target="Credit"/>
+  <RunFunction FunctionName="playCustomSong:Music/None.ogg" FunctionValue="1" />
+
+</OnConnect>
+ 
+</ConditionalActions>

@@ -12,10 +12,10 @@
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="26.0">...不愧是你</AddIRCMessage>
 	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="28.0">这个晕倒是指醒不来的那种吧...</AddIRCMessage>
 	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="30.0">Hmmmm也许？</AddIRCMessage>
-	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="32.0">...先谈正事吧，@Tom 现在，进入机房，找到标号为SCHISSCO_WHITELIST的服务器</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="32.0">@Tom 现在，进入机房，找到标号为SCHISSCO_WHITELIST的服务器</AddIRCMessage>
 	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="34.0">嗯，然后呢？对着它开两枪吗？</AddIRCMessage>
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="36.0">...你就把它拔出来就行了，不要用*那个东西*，那是摧毁基站用的</AddIRCMessage>
-	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="41.0">好了，@#PLAYERNAME#@Coel@D3F4ult 你们应该可以进入内部网络了，毕竟白名单已经物理离线了，不用谢。</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="41.0">好了，@#PLAYERNAME# @Coel @D3F4ult 你们应该可以进入内部网络了，毕竟白名单已经物理离线了，不用谢。</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="43.0">好的...</AddIRCMessage>
 	<DeleteFile TargetComp="STARWL" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="DCDHS" Delay="38.0"/>
   </OnAdminGained>

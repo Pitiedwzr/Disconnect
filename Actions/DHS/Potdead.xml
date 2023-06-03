@@ -6,26 +6,26 @@
 	<LaunchHackScript Filepath="HackerScripts/clearTerminal.txt" DelayHost="DCDHS" Delay="1.1" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" />
 	<LoadMission MissionName="Missions/AC.xml"/>
 	<CrashComputer TargetComp="aircraft2" CrashSource="Cheat" DelayHost="DCDHS" Delay="1" />
-    <ChangeIP DelayHost="Cheat" Delay="1" TargetComp="aircraft2" NewIP="DCLOC:206.53.17.974" />
+  <ChangeIP DelayHost="Cheat" Delay="1" TargetComp="aircraft2" NewIP="DCLOC:206.53.17.974" />
 	<HideNode DelayHost="Cheat" Delay="1" TargetComp="aircraft2" />
 	<DeleteFile TargetComp="playerComp" FilePath="home" FileName="747FlightOps.dll" DelayHost="DCDHS" Delay="0.1"/>
-    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3.0">@#PLAYERNAME# 干得漂...等等</AddIRCMessage>
-	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="6.0">为什么飞机在下降！</AddIRCMessage>
-	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="8.0">什么？！ POT！！！！！！！</AddIRCMessage>
+  <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="3.0">@#PLAYERNAME# 干得好...等等</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="6.0">为什么飞机在下降...？</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="8.0">什么...POT！？</AddIRCMessage>
 	<AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="10.0">*** ROOTKITV0.1.dll 正在运行 ***</AddIRCMessage>
 	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="11.0">又来？？？</AddIRCMessage>
 	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="13.0">@Coel 小姐姐你真聪明啊~</AddIRCMessage>
 	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="15.0">当黑客简直是屈才呢~</AddIRCMessage>
 	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="19.0">好啦~我以为上次的攻击已经让你们解散了呢~没想到你们还在啊~</AddIRCMessage>
 	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="20.0">既然这样，那就做些好玩的事情吧~</AddIRCMessage>
-	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="23.0">你...你...你对Pot做了什么？！</AddIRCMessage>
+	<AddIRCMessage Author="Tom" TargetComp="DCDHS" Delay="23.0">你...你对Pot做了什么？！</AddIRCMessage>
 	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="26.0">你觉得呢~</AddIRCMessage>
 	<AddIRCMessage Author="HY" TargetComp="DCDHS" Delay="27.0">好了~再见~</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="33.0">........</AddIRCMessage>
 	<AddIRCMessage Author="Coel" TargetComp="DCDHS" Delay="36">@Pitiedwzr 快想想办法！</AddIRCMessage>
 	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="40">...我们无能为力了....</AddIRCMessage>
-	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="45">@Pitiedwzr 之前那架747呢？它还没坠毁吧？！</AddIRCMessage>
-	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="49">...747的IP地址已经变化了</AddIRCMessage>
+	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="45">@Pitiedwzr 之前另一架737呢？它还没坠毁吧？！</AddIRCMessage>
+	<AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="49">...737的IP地址已经变化了</AddIRCMessage>
 	<AddIRCMessage Author="D3F4ult" TargetComp="DCDHS" Delay="52">那@#PLAYERNAME# 的系统里还有固件文件吧？</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="54">诶？我去看看！</AddIRCMessage>
 	<AddIRCMessage Author="#PLAYERNAME#" TargetComp="DCDHS" Delay="60">不...我这里的固件备份也不见了...</AddIRCMessage>

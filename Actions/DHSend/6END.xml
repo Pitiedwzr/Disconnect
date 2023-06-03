@@ -51,10 +51,10 @@
     <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="113.4">*** CHANNEL功能初始化：## S_DCSEQUENCER.dll ## ***</AddIRCMessage>>
     <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="113.6">------------------------------------------------</AddIRCMessage>
     <AddIRCMessage Author="Shugarbush" TargetComp="DCDHS" Delay="115">好的，现在Sequencer正在搜索...</AddIRCMessage>
-    <AddConditionalActions Filepath="Actions/DHS/ExplorStar.xml" DelayHost="Cheat" Delay="126"/>>
-    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="125.5">*** Sequencer搜索完成 ***</AddIRCMessage>
-    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="126">!ATTACHMENT:link#%#Star 深层网络#%#33.216.59.79</AddIRCMessage>
-    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="128">@channel GOGOGO!ROOTKIT随时可能启动，尽快完成任务！</AddIRCMessage>
+    <AddConditionalActions Filepath="Actions/DHS/ExplorStar.xml" DelayHost="Cheat" Delay="115"/>>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="124">*** Sequencer搜索完成 ***</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="DCDHS" Delay="125">!ATTACHMENT:link#%#Star 深层网络#%#33.216.59.79</AddIRCMessage>
+    <AddIRCMessage Author="Pitiedwzr" TargetComp="DCDHS" Delay="127">@channel GOGOGO!ROOTKIT随时可能启动，尽快完成任务！</AddIRCMessage>
     
   </Instantly>
 </ConditionalActions>

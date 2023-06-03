@@ -17,8 +17,7 @@
   </file>
     <encryptedFile path="home" name="Mythical Beast2.dec" extension=".txt" ip="UNKNOWN" header="UNKNOWN">
 IRC:#8CD4D2色
-    春分秋分之日 太阳升起之源
-    
-  </encryptedFile>
+春分秋分之日 太阳升起之源
+    </encryptedFile>
     <WhitelistAuthenticatorDaemon Remote="STARWL" />
 </Computer>
